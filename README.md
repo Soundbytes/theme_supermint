@@ -6,7 +6,7 @@
 * Testing updates to theme with version 8.x.x of Concrete5.
 
 ### Fatal bugs
-* `Remove` button crashes site __fatally__ with no recovery ...  issue #4 [->](https://github.com/VividVenturesLLC/theme_supermint/issues/4)
+* None known at this commit
 
 ### Installation
 1. Unzip this file in your site's packages/ directory.
@@ -32,9 +32,13 @@ There was a website at
 http://new.myconcretelab.com/
 which now returns 404.
 
+- For an historical snapshot try [web.archive](https://web.archive.org/web/20180324152300/http://new.myconcretelab.com/)
+
 The docmentation was at:
 http://supermint3.myconcretelab.com/documentation/get-started
 which now returns 404.
+
+- For an historical snapshot try [web.archive](https://web.archive.org/web/20170113174552/http://supermint3.myconcretelab.com:80/documentation/get-started)
 
 -----
 #### Marketplace

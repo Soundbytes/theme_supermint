@@ -11,52 +11,62 @@ use Page;
 use Config;
 use StdClass;
 
-// TODO Simplifier la recherche de contraste, sans passer par une couleur HEX et avec la maitrise du point de bascule */
-
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
-class PresetColors extends RouteController {
-
-
+class PresetColors extends RouteController
+{
     function getColors () {
         $session = \Core::make('session');
         $colorsObject = $session->get('supermint.colors');
         echo json_encode($colorsObject);
     }
 
-	function GetColorsFromPage () {
-        $c = $_REQUEST['cID'] ? Page::getByID($_REQUEST['cID']) : Page::getCurrentPage();
+    function getColorsFromPage ()
+    {
+        $c = $_REQUEST['cID'] ? Page::getByID($_REQUEST['cID']) :
+                                Page::getCurrentPage();
         if (!$c) die(t('Can\'t retrieve a Page to get Preset color'));
+
         $cID = $c->getCollectionID();
+
         $pt = \Concrete\Package\ThemeSupermint\Src\Helper\ThemeObject::get($c);
+        if ( !isset($pt) ) {
+            // no Supermint page theme available
+            // during removal of Supermint theme for example
+            return false;// there is nothing more to do
+        }
         $packageHandle = $pt->getPackageHandle();
         $themeHandle = $pt->getThemeHandle();
         $presets = $pt->getThemeCustomizableStylePresets();
-        // Si on a un tableau vide, onest surement sur une single page ou dans le dashboard, on sort
+
+        // If you have an empty table, you are probably on a single page
+        // or in the dashboard, there is nothing more to do
         if (is_array($presets) && count($presets) === 0 ) return false;
-        // On recupère le preset par defaut
-        foreach ($presets as $preset) { if ($preset->isDefaultPreset()) $defaultPreset = $preset; }
+        // Retreive the default presets
+        foreach ($presets as $preset) {
+                if ($preset->isDefaultPreset()) $defaultPreset = $preset;
+        }
 
         $colorsObject = new stdClass();
 
-        // Si cette page a un style specifique
+        // If this page has a specific style
         if ($c->hasPageThemeCustomizations())
             $customStyleObject = $c->getCustomStyleObject();
-        // Sinon, on prend le style du thème, global a plusieurs pages
+           //Otherwise, take the style of the theme, Global has several pages
         else
             $customStyleObject = $pt->getThemeCustomStyleObject();
 
-        // Si on a pu recupérer le style
+        // If we could recover the style
         if (is_object($customStyleObject)) {
-            // On teste si il a style dependant d'un preset
+            // One tests whether it has style dependent on a preset
             $handle = $customStyleObject->getPresetHandle();
             if ($handle) {
-                // dans ce cas on prend le preset actif
+                // In this case we take the active preset
                 $selectedPreset = $pt->getThemeCustomizablePreset($handle);
             }
-            // on recupère la liste de valeur du preset actif
+            // retrieves the value list of the active preset
             $valueList = $customStyleObject->getValueList();
-        // Sinon, on prend le preset par default
+        // Otherwise, we take the preset by default
         } else {
             $selectedPreset = $defaultPreset;
             $valueList = $defaultPreset->getStyleValueList();
@@ -87,18 +97,23 @@ class PresetColors extends RouteController {
                 self::rgb2hex($variables['white-color'])
                 );
         endforeach;
-    	return $colorsObject;
-	}
+        return $colorsObject;
+    } // end function GetColorsFromPage
 
-    function getColorsVariablesName () {
-        return array('primary','secondary','tertiary','quaternary','white','black','success','info','warning','danger','light','grey');
+    function getColorsVariablesName ()
+    {
+        return array('primary','secondary','tertiary','quaternary',
+                     'white','black','success','info',
+                     'warning','danger','light','grey');
     }
-    function getContrastVariablesName () {
+    function getContrastVariablesName ()
+    {
         return array('primary','secondary','tertiary','quaternary');
     }
 
 
-    function rgb2hex($rgbstring) {
+    function rgb2hex($rgbstring)
+    {
 
         $color = str_replace(array('rgb(', ')', ' '), '', $rgbstring);
         $rgb = explode(',', $color);
@@ -108,10 +123,11 @@ class PresetColors extends RouteController {
         $hex .= str_pad(dechex($rgb[1]), 2, "0", STR_PAD_LEFT);
         $hex .= str_pad(dechex($rgb[2]), 2, "0", STR_PAD_LEFT);
 
-       return $hex; // colorsObjects the hex value including the number sign (#)
+       return $hex; //colorsObjects the hex value including the number sign (#)
     }
 
-    function contrast ($hexcolor, $dark = '#000000', $light = '#FFFFFF') {
+    function contrast ($hexcolor, $dark = '#000000', $light = '#FFFFFF')
+    {
         return (hexdec($hexcolor) > 0xffffff/2) ? $dark : $light;
     }
-}
+}  // end class PresetColors
