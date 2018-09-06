@@ -124,9 +124,15 @@ class Controller extends Package  {
                     $session->set('supermint.colors',$colors);
                 endif;
 
-								if (!is_object($c)) return;
-								// Now we build the button
-								$pt = \Concrete\Package\ThemeSupermint\Src\Helper\ThemeObject::get($c);
+		if (!is_object($c)) return;
+		// Now we build the button
+		$pt = \Concrete\Package\ThemeSupermint\Src\Helper\ThemeObject::get($c);
+
+               if ( !isset($pt) ) {
+                   // no Supermint page theme available
+                   // during removal of Supermint theme for example
+                   return false;// there is nothing more to do
+               }
 								if ($pt->getThemeHandle() != 'supermint') return;
 								$status = t('Supermint Options');
 								$icon = 'toggle-on';

@@ -11,7 +11,7 @@ use Page;
 use Config;
 use StdClass;
 
-// TODO Simplifier la recherche de contraste, sans passer par une couleur HEX et avec la maitrise du point de bascule */
+//
 
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
@@ -24,39 +24,45 @@ class PresetColors extends RouteController {
         echo json_encode($colorsObject);
     }
 
-	function GetColorsFromPage () {
+    function GetColorsFromPage () {
         $c = $_REQUEST['cID'] ? Page::getByID($_REQUEST['cID']) : Page::getCurrentPage();
         if (!$c) die(t('Can\'t retrieve a Page to get Preset color'));
         $cID = $c->getCollectionID();
         $pt = \Concrete\Package\ThemeSupermint\Src\Helper\ThemeObject::get($c);
+        if ( !isset($pt) ) {
+            // no Supermint page theme available
+            // during removal of Supermint theme for example
+            return false;// there is nothing more to do
+        }
         $packageHandle = $pt->getPackageHandle();
         $themeHandle = $pt->getThemeHandle();
         $presets = $pt->getThemeCustomizableStylePresets();
-        // Si on a un tableau vide, onest surement sur une single page ou dans le dashboard, on sort
+        // If you have an empty table, you are probably on a single page 
+        // or in the dashboard, there is nothing more to do
         if (is_array($presets) && count($presets) === 0 ) return false;
-        // On recupère le preset par defaut
+        // Retreive the default presets
         foreach ($presets as $preset) { if ($preset->isDefaultPreset()) $defaultPreset = $preset; }
 
         $colorsObject = new stdClass();
 
-        // Si cette page a un style specifique
+        // If this page has a specific style
         if ($c->hasPageThemeCustomizations())
             $customStyleObject = $c->getCustomStyleObject();
-        // Sinon, on prend le style du thème, global a plusieurs pages
+           //Otherwise, we take the style of the theme, Global has several pages
         else
             $customStyleObject = $pt->getThemeCustomStyleObject();
 
-        // Si on a pu recupérer le style
+        // If we could recover the style
         if (is_object($customStyleObject)) {
-            // On teste si il a style dependant d'un preset
+            // One tests whether it has style dependent on a preset
             $handle = $customStyleObject->getPresetHandle();
             if ($handle) {
-                // dans ce cas on prend le preset actif
+                // In this case we take the active preset
                 $selectedPreset = $pt->getThemeCustomizablePreset($handle);
             }
-            // on recupère la liste de valeur du preset actif
+            // retrieves the value list of the active preset
             $valueList = $customStyleObject->getValueList();
-        // Sinon, on prend le preset par default
+        // Otherwise, we take the preset by default
         } else {
             $selectedPreset = $defaultPreset;
             $valueList = $defaultPreset->getStyleValueList();
