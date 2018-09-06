@@ -11,23 +11,24 @@ use Page;
 use Config;
 use StdClass;
 
-//
-
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
-class PresetColors extends RouteController {
-
-
+class PresetColors extends RouteController
+{
     function getColors () {
         $session = \Core::make('session');
         $colorsObject = $session->get('supermint.colors');
         echo json_encode($colorsObject);
     }
 
-    function GetColorsFromPage () {
-        $c = $_REQUEST['cID'] ? Page::getByID($_REQUEST['cID']) : Page::getCurrentPage();
+    function GetColorsFromPage ()
+    {
+        $c = $_REQUEST['cID'] ? Page::getByID($_REQUEST['cID']) :
+                                Page::getCurrentPage();
         if (!$c) die(t('Can\'t retrieve a Page to get Preset color'));
+
         $cID = $c->getCollectionID();
+
         $pt = \Concrete\Package\ThemeSupermint\Src\Helper\ThemeObject::get($c);
         if ( !isset($pt) ) {
             // no Supermint page theme available
@@ -37,18 +38,21 @@ class PresetColors extends RouteController {
         $packageHandle = $pt->getPackageHandle();
         $themeHandle = $pt->getThemeHandle();
         $presets = $pt->getThemeCustomizableStylePresets();
-        // If you have an empty table, you are probably on a single page 
+
+        // If you have an empty table, you are probably on a single page
         // or in the dashboard, there is nothing more to do
         if (is_array($presets) && count($presets) === 0 ) return false;
         // Retreive the default presets
-        foreach ($presets as $preset) { if ($preset->isDefaultPreset()) $defaultPreset = $preset; }
+        foreach ($presets as $preset) {
+                if ($preset->isDefaultPreset()) $defaultPreset = $preset;
+        }
 
         $colorsObject = new stdClass();
 
         // If this page has a specific style
         if ($c->hasPageThemeCustomizations())
             $customStyleObject = $c->getCustomStyleObject();
-           //Otherwise, we take the style of the theme, Global has several pages
+           //Otherwise, take the style of the theme, Global has several pages
         else
             $customStyleObject = $pt->getThemeCustomStyleObject();
 
@@ -93,18 +97,23 @@ class PresetColors extends RouteController {
                 self::rgb2hex($variables['white-color'])
                 );
         endforeach;
-    	return $colorsObject;
-	}
+        return $colorsObject;
+    } // end function GetColorsFromPage
 
-    function getColorsVariablesName () {
-        return array('primary','secondary','tertiary','quaternary','white','black','success','info','warning','danger','light','grey');
+    function getColorsVariablesName ()
+    {
+        return array('primary','secondary','tertiary','quaternary',
+                     'white','black','success','info',
+                     'warning','danger','light','grey');
     }
-    function getContrastVariablesName () {
+    function getContrastVariablesName ()
+    {
         return array('primary','secondary','tertiary','quaternary');
     }
 
 
-    function rgb2hex($rgbstring) {
+    function rgb2hex($rgbstring)
+    {
 
         $color = str_replace(array('rgb(', ')', ' '), '', $rgbstring);
         $rgb = explode(',', $color);
@@ -114,10 +123,11 @@ class PresetColors extends RouteController {
         $hex .= str_pad(dechex($rgb[1]), 2, "0", STR_PAD_LEFT);
         $hex .= str_pad(dechex($rgb[2]), 2, "0", STR_PAD_LEFT);
 
-       return $hex; // colorsObjects the hex value including the number sign (#)
+       return $hex; //colorsObjects the hex value including the number sign (#)
     }
 
-    function contrast ($hexcolor, $dark = '#000000', $light = '#FFFFFF') {
+    function contrast ($hexcolor, $dark = '#000000', $light = '#FFFFFF')
+    {
         return (hexdec($hexcolor) > 0xffffff/2) ? $dark : $light;
     }
-}
+}  // end class PresetColors
