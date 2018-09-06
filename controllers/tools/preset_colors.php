@@ -21,7 +21,7 @@ class PresetColors extends RouteController
         echo json_encode($colorsObject);
     }
 
-    function GetColorsFromPage ()
+    function getColorsFromPage ()
     {
         $c = $_REQUEST['cID'] ? Page::getByID($_REQUEST['cID']) :
                                 Page::getCurrentPage();
