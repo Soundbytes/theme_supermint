@@ -4,6 +4,7 @@
 * Creating a manual test plan.
 * Treat downloads as experimental and *not for production*.
 * Testing updates to theme with version 8.x.x of Concrete5.
+* Adding docmentation from archive
 
 ### Fatal bugs
 * None known at this commit
@@ -16,6 +17,10 @@
 4. Find this package in the list of packages awaiting installation.
 5. Click the "install" button.
 
+### Documentation
+* from *master* branch Read the Docs [:link:](https://theme-supermint.readthedocs.io/en/latest/)
+* from *master* branch rawgit [:link:](https://rawgit.com/VividVenturesLLC/theme_supermint/master/docs/build/html/index.html)
+* from *develop* branch rawgit [:link:](https://rawgit.com/VividVenturesLLC/theme_supermint/develop/docs/build/html/index.html)
 
 ### Contributors
 *  [Jacqmin Sébastien](https://github.com/myconcretelab)
