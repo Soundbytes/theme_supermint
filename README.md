@@ -4,7 +4,7 @@
 * Creating a manual test plan.
 * Treat downloads as experimental and *not for production*.
 * Testing updates to theme with version 8.x.x of Concrete5.
-* Adding docmentation from archive
+* Adding documentation from archive
 
 ### Fatal bugs
 * None known at this commit
