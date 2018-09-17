@@ -1,0 +1,177 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Welcome to Supermint &#8212; Documentation for theme Supermint  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="How to personalize colors?" href="02-color-customization.html" />
+    <link rel="prev" title="Supermint theme documentation" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-supermint">
+<h1>Welcome to Supermint<a class="headerlink" href="#welcome-to-supermint" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="basic-concept-the-logic-of-supermint-is-based-on-some-fundamental-principles">
+<h2>Basic Concept: The logic of Supermint is based on some fundamental principles:<a class="headerlink" href="#basic-concept-the-logic-of-supermint-is-based-on-some-fundamental-principles" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Use as much as possible of existing blocks of Concrete5</li>
+<li>Very intensive use of custom template for blocks</li>
+<li>Use just as intensive classes for blocks and areas</li>
+<li>Regular use of pages and files attributes</li>
+<li>Anything that is not regulated by the above mentioned ways will be through
+the options themes of the in the dashboard</li>
+</ul>
+<p>So if you master well the custom templates, and classes for block areas and the attributes, you will take great pleasure in creating your site with Supermint.</p>
+<p>If these concepts are still unclear or unknown, <strong>do not worry</strong>, in a few hours
+(if not minutes), through <a class="reference external" href="./05-block-area-layout-classes.html">this documentation</a>
+and the one on <a class="reference external" href="http://documentation.concrete5.org/">documentation.concrete5.org</a>
+you will master these principles and will join the group of happy users.</p>
+<div class="section" id="installation-instructions">
+<h3>Installation instructions<a class="headerlink" href="#installation-instructions" title="Permalink to this headline">¶</a></h3>
+<p>If you have never installed a package on a Concrete5 site, read this first: <a class="reference external" href="https://documentation.concrete5.org/editors/dashboard/add-functionality">https://documentation.concrete5.org/editors/dashboard/add-functionality</a></p>
+<ul>
+<li><p class="first"><strong>Installing Concrete5 on your server</strong></p>
+<p>If you choose to install a <strong>starting point from Supermint</strong>, please do it on a fresh Concrete5 installation.   When you will install Concrete5 on a server you have two choice of content, choose Empty Site.</p>
+</li>
+<li><p class="first"><strong>Manual installation of Supermint</strong></p>
+<ol class="arabic simple">
+<li>Unzip this file in your site’s <strong>packages</strong>/ directory.</li>
+<li>Login to your site as an administrator.</li>
+<li>Find the <strong>Add Functionality</strong> page in your dashboard.</li>
+<li>Find this package in the list of packages awaiting installation.</li>
+<li>Click the <strong>install</strong> button.</li>
+</ol>
+</li>
+<li><p class="first"><strong>LAST STEP</strong>
+Read the documentation to discover how to play with Supermint !</p>
+</li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="extend-supermint">
+<h3>Extend Supermint<a class="headerlink" href="#extend-supermint" title="Permalink to this headline">¶</a></h3>
+<p>The best way to customize <strong>theme files</strong> and keep the <strong>update functionality</strong> is to know what you want to change.</p>
+<ul>
+<li><p class="first"><strong>If you want to customize css:</strong></p>
+<p>Create a file named supermint.css placed at root/application/themes/supermint/css/supermint.css</p>
+</li>
+<li><p class="first"><strong>If you want modify a page-type:</strong></p>
+<p>Copy/paste the page-type file from packages/theme_supermint/themes/supermint/left_sidebar.php into root/themes/supermint/left_sidebar.php and modify it as you want</p>
+</li>
+<li><p class="first"><strong>If you want to add a page-type:</strong></p>
+<p>Add a file into root/application/themes/supermint/my_page_type.php. After go to dashboard &gt; page-types &gt; add a page type, name it and give as handle the file name (my_page_type). This page type will be available now when you will create a new page.</p>
+</li>
+<li><p class="first"><strong>If you want to modify the header.php or footer.php or any other files from Supermint theme elements folder:</strong></p>
+<dl class="docutils">
+<dt>Copy/paste the header file</dt>
+<dd><p class="first">from <cite>packages/theme_supermint/themes/supermint/elements/header.php</cite></p>
+<p>to <cite>root/application/themes/supermint/elements/header.php</cite></p>
+<p class="last">and change what you want into this.</p>
+</dd>
+</dl>
+</li>
+</ul>
+<hr class="docutils" />
+<p>Original reference: web.archive.org <a class="reference external" href="https://web.archive.org/web/20170113174552/http://supermint3.myconcretelab.com:80/documentation/get-started">page</a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Documentation for theme Supermint</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Welcome to Supermint</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#basic-concept-the-logic-of-supermint-is-based-on-some-fundamental-principles">Basic Concept: The logic of Supermint is based on some fundamental principles:</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installation-instructions">Installation instructions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#extend-supermint">Extend Supermint</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="02-color-customization.html">How to personalize colors?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-options-framework.html">Options framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-colophon.html">Colophon</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Supermint theme documentation</a></li>
+      <li>Next: <a href="02-color-customization.html" title="next chapter">How to personalize colors?</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, northdecoder.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/01-get-started.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
