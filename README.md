@@ -18,6 +18,10 @@
 5. Click the "install" button.
 
 ### Documentation
+* Edit the documentation in the directory `/docs/source`
+* Read the documentation at `/docs/build/html/index.html`
+
+__or__
 * from *master* branch Read the Docs [:link:](https://theme-supermint.readthedocs.io/en/latest/)
 * from *master* branch rawgit [:link:](https://rawgit.com/VividVenturesLLC/theme_supermint/master/docs/build/html/index.html)
 * from *develop* branch rawgit [:link:](https://rawgit.com/VividVenturesLLC/theme_supermint/develop/docs/build/html/index.html)
