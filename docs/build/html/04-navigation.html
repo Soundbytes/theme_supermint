@@ -1,0 +1,249 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Navigation &#8212; Documentation for theme Supermint  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Block - Area - Layout classes" href="05-block-area-layout-classes.html" />
+    <link rel="prev" title="Options framework" href="03-options-framework.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="navigation">
+<h1>Navigation<a class="headerlink" href="#navigation" title="Permalink to this headline">¶</a></h1>
+<p>Discover how to manage different type of navigation, mega-menu, columns…</p>
+<div class="section" id="choosing-a-navigation-type">
+<h2>Choosing a navigation type<a class="headerlink" href="#choosing-a-navigation-type" title="Permalink to this headline">¶</a></h2>
+<p>The first thing to ask is what is the type of navigation that best suits your
+project. Once the choice made, go to theme options pages in the sub topic
+Navigation / navigation style and select from options the one you want. Then
+read the section below that corresponds to your choice. Only the <strong>Mega-menu</strong>
+is common to both types of navigation.</p>
+<ul class="simple">
+<li>Disable auto embed navigation: Supermint has an auto embed navigation system.
+For those that need more controls on autonav block, a option in theme option
+page lets you to disable the auto embedding navigation. In this case add an
+autonav block on the Navigation top Area with Supermint or Supermint Dropdown
+custom template on it.</li>
+</ul>
+</div>
+<div class="section" id="regular-drop-down-mode">
+<h2>Regular drop-down mode<a class="headerlink" href="#regular-drop-down-mode" title="Permalink to this headline">¶</a></h2>
+<p>Once type Regular drop-down mode selected, you can choose from three kinds of
+display sub-menu.</p>
+<div class="section" id="default">
+<h3>1. Default<a class="headerlink" href="#default" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Simple dropdown ( Default behavior )</div></blockquote>
+</div>
+<div class="section" id="multi-columns">
+<h3>2. Multi-columns<a class="headerlink" href="#multi-columns" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>Display children as column (Activated by a attribute).</p>
+<p>This mode requires that you have at least one level below the root level pages.
+In this case you can activate it by going to the attributes of the root this
+page and check the “Display multicolumns dropdown”. Then you can fine-tune the
+display of columns <a class="reference external" href="https://web.archive.org/web/20180224031131/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/theme-options#full_width_multicolumn">through options for this mode</a> .</p>
+</div></blockquote>
+</div>
+<div class="section" id="mega-menu">
+<h3>3. Mega-Menu<a class="headerlink" href="#mega-menu" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Display columns where content is keep from a Stack. Activated by the existence
+of a stack</div></blockquote>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="slide-mode">
+<h2>Slide mode<a class="headerlink" href="#slide-mode" title="Permalink to this headline">¶</a></h2>
+<p>The sliding navigation is an original effect where the full page slides down to
+reveal the subnav. You will find many options to take control of the system in
+the options theme page.</p>
+<p>These subnav can be displayed in <strong>3 different ways</strong>.</p>
+<ol class="arabic simple">
+<li><strong>Type 1</strong>: Level 1 &amp; level2 with description</li>
+<li><strong>Type 2</strong>: Level 1, level 2 &amp; level 3</li>
+<li><strong>Type 3</strong>: Level 1 &amp; level 2 without description</li>
+</ol>
+<p>You can choose which type thanks to the page attribute on the root level page :</p>
+<p>&lt; image missing &gt;</p>
+<p><strong>Case study:</strong></p>
+<p>Imagine a site with four top-level page: <strong>Home</strong>,**About**, <strong>Work</strong> and <strong>Services</strong>.</p>
+<ul class="simple">
+<li>The home page has no children. The attribute is left unchanged (fig 1). The
+about page contains three sub-pages. We will use here the type 1, subpages
+appear here with a small description.</li>
+<li>The Work page, it contains four subpages containing itself several sub pages:
+category pages (level2) and pages of work (level3). In this case we use the
+type 2 that displays the categories belonging and work there.</li>
+<li>Finally, the Services page that contains a large number of services. We use
+here the type 3 to display a large number of pages at level 2. This type of
+navigation is also suitable for products of ecommerce, a portfolio, articles …</li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="id1">
+<h2>Mega menu<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>Both systems can display rich dropdown content. The mega-dropdown is just the
+display from a Stack on your dashboard. The system shows one stack by columns
+(with capabilities for assembling blocks on each other for certain columns) and
+can display the block name optionally.</p>
+<p><strong>Add a Mega-menu under a page</strong></p>
+<ul class="simple">
+<li>Create a stack named <strong>with the handle of the root page</strong>. If you root page is
+“My Page” the handle would be “my-page” so the name of the stack will be
+“<strong>mega_menu_my-page</strong>” (note the difference between _ and -).</li>
+<li>Then, add block to the stack. On each block you can optionally click and
+choose “Advanced” to name your block. This name can be optionally displayed on
+top of the block, into the mega menu.</li>
+<li>Each block is rendered in a new column. To stack different block down the
+previous, start the name of the block by “-follow-“. In this case the block
+will be rendered <strong>UNDER</strong> the previous. So a block you want to call
+“Our Features” call it “-follow-Our Features” to place it under the previous.</li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="lateral-mode">
+<h2>Lateral Mode<a class="headerlink" href="#lateral-mode" title="Permalink to this headline">¶</a></h2>
+<p>Lateral navigation is a modern way to display page links. It use also the
+quaternary color but this is overridable with which color you want in the
+theme customization. You will some option in the <a class="reference external" href="https://web.archive.org/web/20180210232248/http://supermint3.myconcretelab.com/index.php/documentation/options-framework/theme-options#use_alternate_on_lateral_nav">related section</a> .</p>
+<p>This navigation is activated by selecting theme in <a class="reference external" href="https://web.archive.org/web/20180210232248/http://supermint3.myconcretelab.com/index.php/documentation/options-framework/theme-options#navigation_style">the navigation style option</a> .</p>
+<div class="section" id="header-footer">
+<h3>Header &amp; footer<a class="headerlink" href="#header-footer" title="Permalink to this headline">¶</a></h3>
+<p>You have seen in the example a logo on top and content on footer. Both are blocks kept
+from stack to let you have complete creativity and liberty on what to put on.</p>
+<blockquote>
+<div><ul class="simple">
+<li>The header stack must be named <code class="docutils literal notranslate"><span class="pre">Lateral</span> <span class="pre">Navigation</span> <span class="pre">Header</span></code></li>
+<li>The Footer stack must be named <code class="docutils literal notranslate"><span class="pre">Lateral</span> <span class="pre">Navigation</span> <span class="pre">Footer</span></code></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="link-style">
+<h3>Link style<a class="headerlink" href="#link-style" title="Permalink to this headline">¶</a></h3>
+<p>To fit exactly to what you expect to have in your design, you can choose the font-family,
+from the one chosen in the font section, for the navigation links. You can also choose
+to uppercase links.</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="wide-large-top-drop-down-mode">
+<h2>Wide Large Top drop-down mode<a class="headerlink" href="#wide-large-top-drop-down-mode" title="Permalink to this headline">¶</a></h2>
+<p>This Mode displays a full width bar with items inside. This mode works well when the <a class="reference external" href="https://web.archive.org/web/20180210232248/http://supermint3.myconcretelab.com/index.php/documentation/options-framework/theme-options#display_top_bar_area">top bar is hidden</a>
+. The logo comes from a stack named <strong>Site Logo</strong>.</p>
+<hr class="docutils" />
+<p>Original reference: web.archive.org <a class="reference external" href="https://web.archive.org/web/20180210232248/http://supermint3.myconcretelab.com:80/index.php/documentation/navigation">page</a></p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Documentation for theme Supermint</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-get-started.html">Welcome to Supermint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-color-customization.html">How to personalize colors?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-options-framework.html">Options framework</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Navigation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#choosing-a-navigation-type">Choosing a navigation type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#regular-drop-down-mode">Regular drop-down mode</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#default">1. Default</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#multi-columns">2. Multi-columns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mega-menu">3. Mega-Menu</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#slide-mode">Slide mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Mega menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lateral-mode">Lateral Mode</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#header-footer">Header &amp; footer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#link-style">Link style</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#wide-large-top-drop-down-mode">Wide Large Top drop-down mode</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="05-block-area-layout-classes.html">Block - Area - Layout classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-colophon.html">Colophon</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="03-options-framework.html" title="previous chapter">Options framework</a></li>
+      <li>Next: <a href="05-block-area-layout-classes.html" title="next chapter">Block - Area - Layout classes</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, northdecoder.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
+      
+      |
+      <a href="_sources/04-navigation.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

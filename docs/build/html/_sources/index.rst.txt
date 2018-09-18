@@ -3,7 +3,7 @@ Supermint theme documentation
 #############################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    01-get-started
    02-color-customization
@@ -14,3 +14,4 @@ Supermint theme documentation
    07-stack-elements
    08-page-customization
    09-page-lists
+   10-colophon
