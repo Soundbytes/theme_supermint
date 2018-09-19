@@ -1,15 +1,17 @@
-**Concrete5 have a theme customization built-in the core. This system is 
-powerful to personalize theme colors, it became a bit limited for other options 
+==================
+Personalize colors
+==================
+.. index:: Colors
+
+**Concrete5 has a theme customization built-in the core. This system is
+powerful to personalize theme colors, it became a bit limited for other options
 like toggle (on/off), Fonts (From Google fonts), Select options.**
 
-In this case we choose to use this **theme customization** only for color 
-settings, others settings are available in the theme options section, in the 
+In this case we choose to use this **theme customization** only for color
+settings, others settings are available in the theme options section, in the
 dashboard.
 
 
-===========================
-How to personalize colors?
-===========================
 
 First of all, if you are not familiar with this system, `read this documentation <https://web.archive.org/web/20170101102058/https://www.concrete5.org/documentation/using-concrete5-7/in-page-editing/the-toolbar/page-edit-drop-down/design/>`_ .
 
@@ -33,7 +35,7 @@ Some colors in the theme customization panel are transparent with a cross:
 
 <image missing>
 
-It's because this color are calculated or keep from one of **basic colors**. 
+It's because this color are calculated or keep from one of **basic colors**.
 If you want to cut this link, feel free! Choose a color and you will have finest
 customization.
 

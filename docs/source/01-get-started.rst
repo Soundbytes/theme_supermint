@@ -23,7 +23,7 @@ you will master these principles and will join the group of happy users.
 
 Installation instructions 
 =========================
-
+.. index:: Installation
 If you have never installed a package on a Concrete5 site, read this first: https://documentation.concrete5.org/editors/dashboard/add-functionality
 
 
@@ -46,7 +46,7 @@ If you have never installed a package on a Concrete5 site, read this first: http
 
 Extend Supermint
 ================
-
+.. index:: Extend
 The best way to customize **theme files** and keep the **update functionality** is to know what you want to change.
 
 * **If you want to customize css:**

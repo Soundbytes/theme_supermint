@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Documentation for theme Supermint'
+project = u'Supermint Docs'
 copyright = u'2018, northdecoder'
 author = u'northdecoder'
 
@@ -74,13 +74,21 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+#html_theme = 'nature'
+html_theme = 'classic'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
 # html_theme_options = {}
+# options for the 'classic' theme
+html_theme_options = {
+    'stickysidebar':'true',
+    'externalrefs':'true'
+}
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
