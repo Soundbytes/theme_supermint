@@ -1,9 +1,10 @@
 ********************
 Welcome to Supermint
 ********************
+A theme for CMS `concrete5 <https://www.concrete5.org/>`_ .
 
-Basic Concept: The logic of Supermint is based on some fundamental principles:
-------------------------------------------------------------------------------
+Fundamental principles:
+-----------------------
 
 * Use as much as possible of existing blocks of Concrete5
 * Very intensive use of custom template for blocks
@@ -12,24 +13,32 @@ Basic Concept: The logic of Supermint is based on some fundamental principles:
 * Anything that is not regulated by the above mentioned ways will be through
   the options themes of the in the dashboard
 
-So if you master well the custom templates, and classes for block areas and the attributes, you will take great pleasure in creating your site with Supermint.
+So if you master well the custom templates, and classes for block areas and the
+attributes, you will take great pleasure in creating your site with Supermint.
 
 If these concepts are still unclear or unknown, **do not worry**, in a few hours
-(if not minutes), through `this documentation <./05-block-area-layout-classes.html>`_ 
-and the one on `documentation.concrete5.org <http://documentation.concrete5.org/>`_ 
+(if not minutes), through
+`this documentation <./05-block-area-layout-classes.html>`_ 
+and the editor
+`documentation.concrete5.org <https://documentation.concrete5.org/editors>`_ 
 you will master these principles and will join the group of happy users.
 
 
 
+.. index:: Installation
+
 Installation instructions 
 =========================
-.. index:: Installation
-If you have never installed a package on a Concrete5 site, read this first: https://documentation.concrete5.org/editors/dashboard/add-functionality
+
+If you have never installed a package on a Concrete5 site, read this first:
+https://documentation.concrete5.org/editors/dashboard/add-functionality
 
 
 * **Installing Concrete5 on your server**
 
-  If you choose to install a **starting point from Supermint**, please do it on a fresh Concrete5 installation.   When you will install Concrete5 on a server you have two choice of content, choose Empty Site. 
+  If you choose to install a **starting point from Supermint**, please do it
+  on a fresh Concrete5 installation.   When you will install Concrete5 on a
+  server you have two choice of content, choose Empty Site. 
 
 * **Manual installation of Supermint**
   
@@ -40,13 +49,16 @@ If you have never installed a package on a Concrete5 site, read this first: http
   5. Click the **install** button.
 
 * **LAST STEP**
+
   Read the documentation to discover how to play with Supermint ! 
 
 -----
 
+.. index:: Extend
+
 Extend Supermint
 ================
-.. index:: Extend
+
 The best way to customize **theme files** and keep the **update functionality** is to know what you want to change.
 
 * **If you want to customize css:**
