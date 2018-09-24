@@ -13,7 +13,17 @@ dashboard.
 
 
 
-First of all, if you are not familiar with this system, `read this documentation <https://web.archive.org/web/20170101102058/https://www.concrete5.org/documentation/using-concrete5-7/in-page-editing/the-toolbar/page-edit-drop-down/design/>`_ .
+First of all, if you are not familiar with this system, read this documentation
+
+- editors
+
+  - in-page-editing
+
+    - the-toolbar
+
+      - page-edit-drop-down
+
+        + `design <https://documentation.concrete5.org/editors/in-page-editing/the-toolbar/page-edit-drop-down/design>`_ .
 
 Now it will be important to understand how Supermint are built for colors.
 
@@ -33,7 +43,7 @@ Need more controls? You have it!
 
 Some colors in the theme customization panel are transparent with a cross:
 
-<image missing>
+.. image:: ./figures/color_customization/x-colors.jpg
 
 It's because this color are calculated or keep from one of **basic colors**.
 If you want to cut this link, feel free! Choose a color and you will have finest
@@ -42,3 +52,5 @@ customization.
 ------
 
 Original reference: web.archive.org `page <https://web.archive.org/web/20170101102058/http://supermint3.myconcretelab.com:80/index.php/documentation/theme-customization>`_
+
+------

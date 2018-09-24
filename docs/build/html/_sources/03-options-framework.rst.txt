@@ -17,8 +17,6 @@ This page gathers options for general topics.
 
 **View options available** `link1 <https://web.archive.org/web/20161216130534/http://supermint3.myconcretelab.com/index.php/documentation/options-framework/theme-options>`_
 
-
-
 *************
 Site Settings
 *************
@@ -70,3 +68,13 @@ Here is the place to manages Presets. Add, rename, remove, set as global, export
 ------
 
 Original reference: web.archive.org `page <https://web.archive.org/web/20161216130534/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework>`_
+
+
+
+
+
+
+.. toctree::
+   :maxdepth: 3
+
+   03a-theme-options
