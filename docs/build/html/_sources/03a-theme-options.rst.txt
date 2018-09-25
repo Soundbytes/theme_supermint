@@ -322,7 +322,7 @@ Dropdown multicolumns
 **Activate the break by parent -**
     The number of columns is determined by the number
     of child page in second level.
-    
+
 * type : ``toggle``
 * default : ``On``
 * id : ``break_columns_on_child``
@@ -338,7 +338,7 @@ Large Dropdown mode
 **Remove the regular place take by the navigation -**
     This advanced option let to control when the auto-embed nav is set on off
     and we want to play with this navigation place.
-    
+
 * type : ``toggle``
 * default : ``Off``
 * id : ``wide_navbar_colapse``
@@ -348,7 +348,7 @@ Large Dropdown mode
 **Contains navigation width to the content width -**
     If enabled, it disable the full width feature and display navigation
     as large as the content
-    
+
 * type : ``toggle``
 * default : ``Off``
 * id : ``wide_navbar_contained``
@@ -357,7 +357,7 @@ Large Dropdown mode
 
 **Display the stack 'Site Logo' on left -**
     If enabled the content of the stack will be displayed on left
-    
+
 * type : ``toggle``
 * default : ``On``
 * id : ``wide_navbar_display_logo``
@@ -373,7 +373,7 @@ Lateral mode
 **Choose the font-family for links**
     By choosing an element you select which font (not size)
     to use for links in the navigation
-    
+
 * type : ``select``
 * default :``-``
 * id : ``lateral_nav_element_font``
@@ -391,7 +391,7 @@ Lateral mode
 **Make links uppercase**
 
 * type : ``toggle``
-* default : ``Off`` 
+* default : ``Off``
 * id : ``lateral_nav_element_uppercase``
 
 -----
@@ -399,26 +399,374 @@ Lateral mode
 **Activate the harmonize-text script**
     This script tries to harmonize title width to create a unique design.
     For now can display width smaller sometimes but always visible.
-    
+
 * type : ``toggle``
 * default : ``Off``
 * id : ``lateral_nav_element_harmonized``
 
 -----
 
-====
-TODO
-====
-x
+Responsive full width mode
+--------------------------
+     Options when the nav shown on mobile
 
-****************
-continue copying
-****************
-x
+-----
 
-source document here
---------------------
-    x
+**Display the stack 'Site Logo' on the mobile nav -**
+    If enabled the content of the stack will be displayed at left.
+
+* type : ``toggle``
+* default : ``On``
+* id : ``display_logo_mobile_nav``
+
+
+
+-----
+
+**Display the regular Area Logo on Mobile -**
+    If disabled, the Logo will be hidden when the mobile nav is shown.
+
+* type : ``toggle``
+* default : ``Off``
+* id : ``display_main_logo_on_mobile``
+
+-----
+
+**Font size for links items -**
+
+* type : ``range``
+* default : ``20px``
+* id : ``full_screen_nav_font_size``
+
+-----
+
+Responsive Lateral Nav (mmenu)
+------------------------------
+    Options the autonav template is "Supermint Mmenu"
+
+-----
+
+**Choose the theme -**
+    By choosing an element you select which font (not size) to use for links
+    in the navigation
+
+* type : ``select``
+* default : ``Light gray background``
+* id : ``mmenu_theme``
+
+-----
+
+**Choose the Position -**
+    By default, the menu will always slide the page out to the right but you
+    can change it.
+
+* type : ``select``
+* default : ``Left``
+* id : ``mmenu_position``
+
+-----
+
+**Pane shadow -**
+    Enable if you want the page to have a shadow to emphasize it is in front
+    of the menu.
+
+* type : ``toggle``
+* default : ``Off``
+* id : ``mmenu_shadow``
+
+-----
+
+**Display Icon -**
+
+* type : ``toggle``
+* default : ``Off``
+* id : ``mmenu_display_icon``
+
+-----
+
+*****************
+Mega menu options
+*****************
+    Options when a parent page displays a Stack as mega-menu
+
+-----
+
+**Mega menu position when dropdown mode -**
+    Display a mega menu as full width or under parent
+
+* type : ``select``
+* default : ``Full width mega-menu with percent based columns width``
+* id : ``full_width_mega``
+
+-----
+
+**Mega columns width -**
+    Columns width in pixels for mega menu when aligned to the left
+
+* type : ``range``
+* default : ``200px``
+* id : ``mega_columns_width``
+
+-----
+
+**Block title when exist -**
+    Display the block name as title
+
+* type : ``toggle``
+* default : ``Off``
+* id : ``display_title_mega_menu``
+
+
+-----
+
+************************
+Slide Navigation options
+************************
+    Options available when navigation is set on "slide" mode
+
+-----
+
+**Navigation Event -**
+    Choose the event that activates the sliding menu (not on dropdown)
+
+* type : ``select``
+* default : ``Click``
+* id : ``nav_event``
+
+-----
+
+**Navigation Double click management -**
+    Choose to open/close or go to the url on second click
+
+* type : ``select``
+* default : ``Go to the Url``
+* id : ``nav_dbl_click_event``
+
+-----
+
+**Open on load -**
+  If enabled, Subnavs will be open if they are one subpage active.
+  If disabled subnavs are closed on page load.
+
+* type : ``toggle``
+* default : ``Off``
+* id : ``nav_open_on_load``
+
+-----
+
+**Display little arrow on right -**
+
+* type : ``toggle``
+* default : ``Off``
+* id :``nav_slide_arrow``
+
+-----
+
+**Sub-page icon -**
+    The icon from `Font Awesome <https://fontawesome.com/icons>`_ displayed on
+    left of each sub-page.
+
+* type : ``awesome``
+* default : ``-``
+* id : ``default_nav_icon``
+
+-----
+
+**Display pane title -**
+    Display the first level page title & link on the top of each subnav panes.
+
+* type : ``toggle``
+* default : ``Off``
+* id : ``display_pane_title``
+
+-----
+
+**Navigation column -**
+    How many columns you want in the sub navs
+
+* type : ``select``
+* default : ``Four``
+* id : ``nav_columns``
+
+-----
+
+**Columns margin -**
+    Set space between columns in percent
+
+* type : ``range``
+* default : ``2%``
+* id : ``nav_columns_margin``
+
+-----
+
+**Open speed -**
+    Set the speed to open the nav
+
+* type : ``range``
+* default : ``300ms``
+* id : ``nav_open_speed``
+
+-----
+
+**Close speed -**
+    Set the speed to close the nav
+
+* type : ``range``
+* default : ``300ms``
+* id : ``nav_close_speed``
+
+-----
+
+**Slide speed -**
+    Set the speed when subnavs slide
+
+* type : ``range``
+* default : ``300ms``
+* id : ``nav_slide_speed``
+
+-----
+
+**On mouse leave delay -**
+    Set the wait time for close the nav, after the mouse leaves the nav
+
+* type : ``range``
+* default : ``1000ms``
+* id : ``nav_mouseleave_delay``
+
+-----
+
+**Shorten description on subnavs -**
+    If set to 0 all description text will be displayed
+
+* type : ``range``
+* default : ``0Char``
+* id : ``nav_shorten_desc``
+
+-----
+
+
+
+******
+Footer
+******
+    Options for the Footer section
+
+-----
+
+**Display Footer -**
+
+* type : ``toggle``
+* default : ``On``
+* id : ``display_footer``
+
+-----
+
+**Footer column -**
+    How many columns you want in the footer
+
+* type : ``select``
+* default : ``One Half and two``
+* id : ``display_footer_column``
+
+-----
+
+**Make Footer Global -**
+    If enabled, Block on footer will be Globals
+
+* type : ``toggle``
+* default : ``On``
+* id : ``footer_global``
+
+-----
+
+**RAW HTML Credits -**
+    If you want to change it, feel free
+
+* type : ``textarea``
+* default : ``Designed by MyConcreteLab Powered by concrete5``
+* id : ``footer_credit``
+
+-----
+
+**Disable Footer login links -**
+    If enabled, you will not see login links in the footer
+
+* type : ``toggle``
+* default : ``Off``
+* id : ``disable_footer_login``
+
+
+
+
+*****
+Popup
+*****
+    Here you can set transitions for popups
+
+CSS transitions for popup
+-------------------------
+
+**content at start -**
+    CSS only
+
+* type : ``textarea``
+* default :``-``
+* opacity: ``0;``
+* transform: ``translateY(-20px) perspective( 2000px ) rotateX( 10deg );``
+* id : ``popup_content_start_css``
+
+-----
+
+**content animate it -**
+    CSS only
+
+* type : ``textarea``
+* default : ``opacity: 1``;
+* transform: ``translateY(0) perspective( 600px ) rotateX( 0 );``
+* id :``popup_content_animate_css``
+
+-----
+
+**content animate out -**
+    CSS only
+
+* type : ``textarea``
+* default : ``opacity: 0;``
+* transform: ``translateY(-20px) perspective( 2000px ) rotateX( 10deg );``
+* id : ``popup_content_out_css``
+
+-----
+
+Button type for popup
+---------------------
+    Here you can set the type of button for popup
+
+**Button type for popup -**
+    Choose between three styles of button
+
+* type : ``select``
+* default : ``Push``
+* id : ``popup_button_type``
+
+-----
+
+**Button color for popup -**
+    Choose between four colors
+
+* type : ``select``
+* default : ``Primary``
+* id : ``popup_button_color``
+
+
+*************
+Miscellaneous
+*************
+**Activate iFrame z-index script -**
+    Fix an iFrame z-index issue on certain condition.
+
+* type : ``toggle``
+* default : ``Off``
+* id : ``fix_iframe_zindex``
 
 -----
 
