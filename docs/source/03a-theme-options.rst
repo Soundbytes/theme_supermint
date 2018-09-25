@@ -1,3 +1,5 @@
+.. index:: Option; Theme
+
 =============
 Theme Options
 =============
@@ -770,4 +772,6 @@ Miscellaneous
 
 -----
 
-Original reference: web.archive.org `page <https://web.archive.org/web/20161128024527/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/theme-options>`_
+Original reference: web.archive.org
+`page <https://web.archive.org/web/20161128024527/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/theme-options>`_
+

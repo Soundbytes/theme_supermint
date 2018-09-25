@@ -1,0 +1,422 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Font Options &#8212; Supermint Docs  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Navigation" href="04-navigation.html" />
+    <link rel="prev" title="Slider Options" href="03c-slider-settings.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="04-navigation.html" title="Navigation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="03c-slider-settings.html" title="Slider Options"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint Docs  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="03-options-framework.html" accesskey="U">Options framework</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="font-options">
+<span id="index-0"></span><h1>Font Options<a class="headerlink" href="#font-options" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>Here you will set all font family from 600+ Google fonts, font size, font
+variant used into the site. This is a super powerful feature; easy to play
+with.</div></blockquote>
+<div class="section" id="fonts-from-google">
+<span id="index-1"></span><h2>Fonts from Google<a class="headerlink" href="#fonts-from-google" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>In this section you will choose which font is assigned to which element. You
+also need to choose one or more variations : styles such as <strong>bold</strong> and
+<em>italics</em> have their fonts.</div></blockquote>
+<p><strong>Examples:</strong></p>
+<p>Choose a font for paragraphs. We will take for example the font <strong>Roboto</strong>
+because it offers several <strong>variations</strong>: Choose as font for paragraphs
+<strong>Roboto</strong>. Once loaded you will see example display on the right.</p>
+<p>&lt;image missing&gt;</p>
+<p>Now next to <strong>Variants</strong> you will see <strong>Regular</strong> which is the mandatory style
+for any font. So that the text in bold and italic appears good in your website,
+you should choose the corresponding variants. In this case select the 300,
+300 Italic, 700 and 700 Italic. We intentionally deviating the <strong>Regular</strong> style
+that we do not like so much.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Many police has only mode Regular. Bold and italic will
+therefore rendering random manner following browsers.</p>
+</div>
+<p><strong>Choose a Variant as default</strong></p>
+<p>Once several variants displayed a new menu item appears below, to choose which
+version to use by default. In this example if we select 600, all paragraphs will
+be displayed in bold. If we select 300, all paragraphs will light mode, what we
+want, so select it.</p>
+<p>The ‘Subsets’ are only used for some languages, if you need select the ones that
+suit you.</p>
+<p><strong>Font size</strong></p>
+<p>Here you can adjust the size of each element typography.</p>
+<p><strong>Font Variations</strong></p>
+<p>Select any item in this section to capital. This style is often appreciated for
+h4, h5, h6.</p>
+<p><strong>Responsive text</strong></p>
+<p>In this section, you can choose to calculate different font sizes for the
+different screen sizes. The ratio for widescreen multiply the size as said split
+tablet and phones.</p>
+<p><strong>Example:</strong></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>For paragraphs, we select a size of 16px.</p>
+<p>Ratios:</p>
+<blockquote class="last">
+<div><p><strong>Wide screen</strong>: 16 * 1.2 = 19px</p>
+<p><strong>Tablet</strong>: 16 /1.2 = 13px</p>
+<p><strong>Phones</strong>: 16 /1.3 = 12px</p>
+</div></blockquote>
+</div>
+<p><strong>If 1 is selected, no change will be made in sizes chosen in the section
+“Font size” above.</strong></p>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Global page Font -</strong></dt>
+<dd>This font is used on all elements except those below</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">font</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Roboto</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">p</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Fonts for alternate text -</strong></dt>
+<dd>Choose a font for the alternate class (available in the WYSIWYG editor)</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">font</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Pacifico</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">alternate</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Fonts for Titles level-1 -</strong></dt>
+<dd>H1</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">font</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Roboto</span> <span class="pre">Condensed</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h1</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Fonts for Titles level-2 -</strong></dt>
+<dd>H2</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">font</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Roboto</span> <span class="pre">Condensed</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h2</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Fonts for Titles level-3 -</strong></dt>
+<dd>H3</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">font</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Roboto</span> <span class="pre">Condensed</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h3</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Fonts for Titles level-4 -</strong></dt>
+<dd>H4</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">font</span></code></li>
+<li>default :<code class="docutils literal notranslate"><span class="pre">Roboto</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h4</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Fonts for Titles level 5 -</strong></dt>
+<dd>H5</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">font</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Roboto</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h5</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Fonts for Titles level 6 -</strong></dt>
+<dd>H6</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">font</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Roboto</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h6</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Fonts for small tags into heading -</strong></dt>
+<dd>You can add rythm to your heading by adding a \ tag into it</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">font</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Roboto</span> <span class="pre">Condensed</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">small</span></code></li>
+</ul>
+</div>
+<div class="section" id="fonts-size">
+<h2>Fonts size<a class="headerlink" href="#fonts-size" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Choose font-size in pixels for elements.</div></blockquote>
+<hr class="docutils" />
+<p><strong>Paragraph size is defined in the Theme Customization Panel</strong>
+This option is only defined in the theme customization</p>
+<hr class="docutils" />
+<p><strong>H1 -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">50px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h1_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>H2 -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">35px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h2_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>H3 -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">25px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h3_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>H4 -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">20px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h4_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>H5 -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">17px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h5_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>H6 -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">16px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">h6_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>‘Lead’ class -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">14px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">lead_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>‘Alternate’ class -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">0.8em</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">alternate_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Fonts size (in em) for small tag in titles -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">0.8em</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">small_tag_size</span></code></li>
+</ul>
+</div>
+<div class="section" id="font-variation">
+<h2>Font variation<a class="headerlink" href="#font-variation" title="Permalink to this headline">¶</a></h2>
+<p><strong>Make H1 uppercase -</strong></p>
+<ul class="simple">
+<li>type : toggle</li>
+<li>default : Off</li>
+<li>id : h1_upp</li>
+</ul>
+<hr class="docutils" />
+<p><strong>Make H2 uppercase -</strong></p>
+<ul class="simple">
+<li>type : toggle</li>
+<li>default : Off</li>
+<li>id : h2_upp</li>
+</ul>
+<hr class="docutils" />
+<p><strong>Make H3 uppercase -</strong></p>
+<ul class="simple">
+<li>type : toggle</li>
+<li>default : Off</li>
+<li>id : h3_upp</li>
+</ul>
+<hr class="docutils" />
+<p><strong>Make H4 uppercase -</strong></p>
+<ul class="simple">
+<li>type : toggle</li>
+<li>default : On</li>
+<li>id : h4_upp</li>
+</ul>
+<hr class="docutils" />
+<p><strong>Make H5 uppercase -</strong></p>
+<ul class="simple">
+<li>type : toggle</li>
+<li>default : Off</li>
+<li>id : h5_upp</li>
+</ul>
+<hr class="docutils" />
+<p><strong>Make H6 uppercase -</strong></p>
+<ul class="simple">
+<li>type : toggle</li>
+<li>default : Off</li>
+<li>id : h6_upp</li>
+</ul>
+</div>
+<div class="section" id="responsive-text">
+<h2>Responsive text<a class="headerlink" href="#responsive-text" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Size above are used on regular display (between 980px &amp; 1200px). To keep
+proportionalities, fonts are tailored to bigger &amp; smaller screens with a
+ratio. You can adjust the ratio if the result does not satisfy you on your
+tablet or phone.</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Ratio for bigger desktop screen (more that 1200px) -</strong></dt>
+<dd>I think the most popular screen size</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">1.24</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">wide_ratio</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Ratio for Portrait tablets -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">1.3</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">w724_ratio</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Ratio for Phones &amp; tablets -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">1.3</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">full_ratio</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Text minimum limit. -</strong></dt>
+<dd>This option prevent to have too small text on tablet or mobiles.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">12</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">size_minimum</span></code></li>
+</ul>
+<hr class="docutils" />
+<p>Original reference: web.archive.org
+<a class="reference external" href="https://web.archive.org/web/20180109201123/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/fonts">page</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Font Options</a><ul>
+<li><a class="reference internal" href="#fonts-from-google">Fonts from Google</a></li>
+<li><a class="reference internal" href="#fonts-size">Fonts size</a></li>
+<li><a class="reference internal" href="#font-variation">Font variation</a></li>
+<li><a class="reference internal" href="#responsive-text">Responsive text</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="03c-slider-settings.html"
+                        title="previous chapter">Slider Options</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="04-navigation.html"
+                        title="next chapter">Navigation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/03d-font-settings.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="04-navigation.html" title="Navigation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="03c-slider-settings.html" title="Slider Options"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint Docs  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="03-options-framework.html" >Options framework</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, northdecoder.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.0.
+    </div>
+  </body>
+</html>
