@@ -17,16 +17,7 @@ site appearance.
    03b-site-settings
    03c-slider-settings
    03d-font-settings
-   
-
-***********
-Preset page
-***********
-.. index:: Option; Presets
-
-Here is the place to manages Presets. Add, rename, remove, set as global, export, import, ... All are here.
-
-**View options available**  `link5 <https://web.archive.org/web/20161216130534/http://supermint3.myconcretelab.com/index.php/documentation/options-framework/options-preset>`_
+   03e-presets
 
 
 ------

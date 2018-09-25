@@ -156,13 +156,17 @@ Feature
 
 -----
 
+
 Autonav
 -------
     Options for the Built-in "Autonav" block
 
+
+.. index:: Fonts; Awesome
+
 **Icon class on left of each navigation title**
-    Pick an icon from the FontAwesome Librairy. This icon will
-    be used throught all autonav template.
+    Pick an icon from the `Font Awesome <https://fontawesome.com/icon>`_
+    Library. This icon will be used throught all autonav template.
 
 * type : ``awesome``
 * default : ``-``
@@ -564,8 +568,10 @@ Slide Navigation options
 
 -----
 
+.. index:: Fonts; Awesome
+
 **Sub-page icon -**
-    The icon from `Font Awesome <https://fontawesome.com/icons>`_ displayed on
+    The icon from `FontAwesome <https://fontawesome.com/icons>`_ displayed on
     left of each sub-page.
 
 * type : ``awesome``
