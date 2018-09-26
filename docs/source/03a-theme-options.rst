@@ -37,6 +37,8 @@ Layout
 
 -----
 
+.. _display-top-bar-area:
+
 **Display Top Bar -**
     Display zone with Logo Area, right Header content. Disable this for the
     Wide navigation style.

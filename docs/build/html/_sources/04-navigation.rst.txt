@@ -126,14 +126,17 @@ Lateral Mode
 
 Lateral navigation is a modern way to display page links. It use also the
 quaternary color but this is overridable with which color you want in the
-theme customization. You will some option in the `related section <https://web.archive.org/web/20180210232248/http://supermint3.myconcretelab.com/index.php/documentation/options-framework/theme-options#use_alternate_on_lateral_nav>`_ .
+theme customization. You will some option in the 
+`related section <./03a-theme-options.html#lateral-mode>`_ .
 
-This navigation is activated by selecting theme in `the navigation style option <https://web.archive.org/web/20180210232248/http://supermint3.myconcretelab.com/index.php/documentation/options-framework/theme-options#navigation_style>`_ .
+This navigation is activated by selecting theme in
+`the navigation style option <./03a-theme-options.html#supermint-navigation>`_ .
 
 Header & footer
 ===============
-You have seen in the example a logo on top and content on footer. Both are blocks kept
-from stack to let you have complete creativity and liberty on what to put on.
+You have seen in the example a logo on top and content on footer. Both are
+blocks kept from stack to let you have complete creativity and liberty on what
+to put on.
 
 
     * The header stack must be named ``Lateral Navigation Header``
@@ -151,8 +154,10 @@ to uppercase links.
 *****************************
 Wide Large Top drop-down mode
 *****************************
-This Mode displays a full width bar with items inside. This mode works well when the `top bar is hidden <https://web.archive.org/web/20180210232248/http://supermint3.myconcretelab.com/index.php/documentation/options-framework/theme-options#display_top_bar_area>`_
-. The logo comes from a stack named **Site Logo**.
+This Mode displays a full width bar with items inside. This mode works well 
+when the 
+`top bar is hidden <./03a-theme-options.html#display-top-bar-area>`_ .
+The logo comes from a stack named **Site Logo**.
 
 
 ------
