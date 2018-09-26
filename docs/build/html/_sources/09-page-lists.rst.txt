@@ -18,7 +18,7 @@ How use page-list templates
   members, products, .. page can (almost) everything represented::
 
     Just after the template is applied, the block seems to be blank.
-    Don't worry, this behavior will be avoided once the page is saved .
+    Do not worry, this behavior will be avoided once the page is saved .
 
   Templates can be displayed in three different ways:
 

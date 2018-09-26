@@ -166,6 +166,8 @@ Autonav
 
 .. index:: Fonts; Awesome
 
+.. _default-nav-block-icon:
+
 **Icon class on left of each navigation title**
     Pick an icon from the `Font Awesome <https://fontawesome.com/icon>`_
     Library. This icon will be used throught all autonav template.

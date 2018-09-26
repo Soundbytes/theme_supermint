@@ -9,19 +9,24 @@ About this documentation website.
 reStructured Text
 *****************
 
-* The documentation source files are written in
+* The documentation *source* files are written in
   `reStructured <http://docutils.sourceforge.net/rst.html>`_ text
   which ends with an ``.rst`` suffix.
 
   - They exist in ``~/workspace/docs/source``
 
-* Try an online WYSIWYG `editor <http://rst.ninjs.org>`_
+* Try an online WYSIWYG `editor <http://rst.ninjs.org>`_ to learn proper
+  formatting.
+
+* The transformed output *build* documents are served from
+
+  - ``~/workspace/docs/build/html/index.html``
 
 *************************
 Tranformation to html
 *************************
 
-* Tranformation to **html** and other formats is made with
+* Tranformation to **html** is made with
   `Sphinx <http://www.sphinx-doc.org/en/master/index.html>`_ a python based
   document generator.
 
@@ -45,4 +50,4 @@ Workspace Customization
 
   - Possible installation of Sphinx something like:
 
-    - ``$sudo pip3 install -U sphinx``
+    - ``$ sudo pip3 install -U sphinx``

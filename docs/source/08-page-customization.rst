@@ -1,7 +1,7 @@
 ##################
 Page customization
 ##################
-Customize your page in many ways.
+Customize pages in many ways.
 
 **********************************
 Discover how to personalize a page
@@ -12,10 +12,10 @@ Discover how to personalize a page
 Page Color
 ==========
 
-  You can see in the top menu, and in some template navigation, a color that
-  is assigned to pages. By default, the selected color is the **primary** theme
-  color. You can assign colors individually for each page by changing the
-  attribute **Main Page Color**.
+  See in the top menu, and in `some template navigation <https://web.archive.org/web/20180111065348/http://supermint3.myconcretelab.com:80/index.php/blocks/navigation>`_
+  , a color that is assigned to pages. By default, the selected color is the
+  **primary** theme color. Assign colors individually for each page by changing
+  the attribute **Main Page Color**.
 
   [Sc: The attribute main_page_color]
 
@@ -24,13 +24,13 @@ Page Color
 Page Icon
 =========
 
-  You can change the default icon for **all pages** or for each page
+  Change the default icon for **all pages** or for each page
   **separately**.
 
   - **To change the default icon applied to all pages**
 
-    Go on in the theme options page in the Slide Navigation section, change
-    the related option.
+    Reference the theme options page *Slide Navigation* section to change
+    the `related option <./03a-theme-options.html#default-nav-block-icon>`_ .
 
   - **To change the icon of the pages separately**
 
@@ -43,18 +43,20 @@ Miniature
 =========
 
   The miniature pages are used in Supermint in ``page-list``. This file
-  dimension are adapted as required, so no need to resize your image, the theme
-  will do itfor you. To assign an image to a page, fill the **Thumbnail**
+  dimension are adapted as required, so no need to resize the image, the theme
+  will do it. To assign an image to a page, fill the **Thumbnail**
   attribute of this page with a valid image.
 
 * **Background image of a page**
 
   With Supermint, it is possible to add a background image to a page. In order
   to have a background image, simply fill in the attribute "background page" in
-  property page::
+  property page.
 
-   If the page is not in "Boxed" do not hesitate to use areas
-   classes that will give a background color to your content.
+.. Note::
+   If the page is not in "Boxed" do not hesitate to use 
+   `area classes <./06-area-classes.html#area-classes>`_
+   that will give a pleasing background color.
 
 .. index:: Customize Page; background image slideshow
 
@@ -72,9 +74,9 @@ Background image slideshow
 Apply a preset option
 =====================
 
-  If you need different options settings of all pages for a particular, simply
-  create a page preset and apply through the attribute **Supermint theme Option
-  Preset**.
+  If different options settings are needed for all pages, or for a particular
+  page, simply create a page preset and apply through the attribute 
+  **Supermint theme Option Preset**.
 
 .. index:: Customize Page; multiple main area
 
@@ -85,10 +87,9 @@ Multiple Main Area
   Concrete5 introduced Area styles, allowing to customize the appearance thereof.
   We do not always need this type of stacked layout, which is why I have not
   built a large number of office area, limiting the suffering of the database.
-  However, you can set the number of main area for data pages by setting the
-  attribute **Number of Main Area** with the desired number. You will see in
-  edit mode the new area in which you can add content and you can customize
-  the look.
+  Set the number of main area for data pages by setting the attribute
+  **Number of Main Area** with the desired number. In edit mode see the new
+  area where content can be added and customized.
 
 .. image:: ./figures/page_customization/multiple-main-area.jpg
    :scale: 50 %
@@ -99,7 +100,7 @@ Multiple Main Area
 Colorful Sticker
 ================
 
-  Add on top of your page a small label with a very short text. This sticker
+  Add on top of the page a small label with a very short text. This sticker
   will take the primary theme color as the background and the color contrast for
   text. It will be displayed only if the page attribute is filled. To display
   the sticker, fill the attribute **Text for the Ribbon** with a
@@ -117,7 +118,7 @@ Colorful Sticker
 Display Mode "Boxed"
 ====================
 
-  You can change the appearance of pages mode to "Boxed". This displays a
+  Change the appearance of pages mode to "Boxed". This displays a
   white background in the content, detached from the bottom of the page body.
   For this Boxed Set the mode in theme options in the "Layout".
 
