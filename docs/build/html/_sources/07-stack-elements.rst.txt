@@ -7,13 +7,13 @@ How to add tabs, accordions, sliders, .. from a stack
 
 
    Stacks creates a set of blocks and displays them anywhere in the site. This
-   is useful for updating content that is several times the site. It's also a
-   great opportunity for the designer to use these sets of blocks and display
-   the creative way. The most classic modes are accordions, tabs .. Supermint
-   goes further by proposing new and practical ways to display these contents
-   as a button that opens a popup.
+   is useful for updating content that is applied several times in the site.
+   It is also a great opportunity for the designer to use these sets of blocks
+   and display the creative way. The most classic modes are accordions, tabs.
+   Supermint goes further by proposing new and practical ways to display these
+   contents as a button that opens a popup.
 
-Stack `documentation on concrete5.org <https://documentation.concrete5.org/editors/in-page-editing/block-areas/stacks>`_
+   Stack `documentation on concrete5.org <https://documentation.concrete5.org/editors/in-page-editing/block-areas/stacks>`_
 
 .. index:: Stack; usage
 
@@ -79,6 +79,9 @@ Adjust the color class
   **element-tertiary**, **element-quaternary**,  **element-black** and
   **element-white**.
 
+  .. image:: ./figures/stack_elements/custom-class.jpg
+
+
 .. index:: Stack; examples
 
 ********
@@ -90,7 +93,7 @@ Examples
 2. **Tabs** as custom template with **element-quaternary** as custom class.
 3. **Button** popup as custom template with no custom class.
 
-.. image:: ./figures/stack_elements/stack-elements.jpg
+  .. image:: ./figures/stack_elements/stack-elements.jpg
 
 -----
 

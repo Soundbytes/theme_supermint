@@ -64,9 +64,12 @@ Background image slideshow
 ==========================
 
   It is also possible to add multiple background images on a page. For this
-  create a file set that will contain all the desired images and choose the file
-  group with the page attribute **background slider** in properties of page. It
-  might be possible to set a default file for all pages.
+  create a
+  `file sets <https://documentation.concrete5.org/editors/dashboard/files/sets>`_ 
+  that will contain all the desired images and choose the file group with the
+  page attribute **background slider** in properties of page. It might be 
+  possible to set a default file for all pages.
+  
   <background image slider example missing>
 
 .. index:: Customize Page; preset option
@@ -106,8 +109,9 @@ Colorful Sticker
   the sticker, fill the attribute **Text for the Ribbon** with a
   short sentence::
 
-    The sticker display is more elegant on the full page or side
-    bar page template.
+.. Note::
+   The **sticker** display is more elegant on the full page or side
+   bar page template.
 
 .. image:: ./figures/page_customization/colorful-sticker.jpg
    :scale: 75 %

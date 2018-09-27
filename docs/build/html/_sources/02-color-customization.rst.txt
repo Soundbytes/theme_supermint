@@ -52,5 +52,3 @@ customization.
 ------
 
 Original reference: web.archive.org `page <https://web.archive.org/web/20170101102058/http://supermint3.myconcretelab.com:80/index.php/documentation/theme-customization>`_
-
-------

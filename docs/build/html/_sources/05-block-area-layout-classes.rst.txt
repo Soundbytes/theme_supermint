@@ -1,8 +1,12 @@
 #############################
 Block - Area - Layout classes
 #############################
-How intensely use custom templates & classes for both Blocks, Area & Layouts
+How to intensely use custom templates & classes for both Blocks, Area & Layouts
 
+.. toctree::
+   :maxdepth: 3
+   
+   05a-blocks
 
 *******************
 Class and templates
@@ -56,7 +60,7 @@ choice. **Several classes are selectable**.
 
 Layout class
 ------------
-Finally you can add templates from Concrete5.7.5+ and classes to Layouts. To do
+Finally you can add templates from Concrete5 and classes to Layouts. To do
 this, add a layout by clicking on an empty area or its label and choose
 **Add Layout**. Once added, click the label of one of these columns
 (Column 1 Column 2, ...) and choose **Edit Layout Design**. In the top bar
@@ -72,9 +76,14 @@ Which class/templates ?
 Now that you know how to apply a template or class on three levels, get
 acquainted with those available with Supermint.
 
-* For a list of **classes** and **templates** for the **block** `in the block section <https://web.archive.org/web/20180111065122/http://supermint3.myconcretelab.com/index.php/blocks>`_ of this site.
+* For a list of **classes** and **templates** for the **block**
+  `in the block section <./05a-blocks.html>`_ of this site.
+
+
+
 * For a list of classes for Areas it's in the
-  Feature section> Page & miscellaneous> `Area classes <https://web.archive.org/web/20180111065122/http://supermint3.myconcretelab.com/index.php/features/page-customization/area-classes>`_
+  Feature section> Page & miscellaneous>
+  `Area classes <https://web.archive.org/web/20180111065122/http://supermint3.myconcretelab.com/index.php/features/page-customization/area-classes>`_
 
 * And finally you will find nothing yet on layouts because the feature is so
   new, I did not even study the subject. But beware, it could be very powerful.

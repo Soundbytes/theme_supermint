@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Supermint Docs'
+project = u'Supermint'
 copyright = u'2018, northdecoder'
 author = u'northdecoder'
 
