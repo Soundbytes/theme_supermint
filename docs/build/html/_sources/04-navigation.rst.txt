@@ -15,7 +15,8 @@ read the section below that corresponds to your choice. Only the **Mega-menu**
 is common to both types of navigation.
 
 * Disable auto embed navigation: Supermint has an auto embed navigation system.
-  For those that need more controls on autonav block, a option in theme option
+  For those that need more controls on autonav block, an 
+  `option in the theme option <./03a-theme-options.html#disable-auto-embed-nav>`_
   page lets you to disable the auto embedding navigation. In this case add an
   autonav block on the Navigation top Area with Supermint or Supermint Dropdown
   custom template on it.
@@ -40,7 +41,7 @@ display sub-menu.
  This mode requires that you have at least one level below the root level pages.
  In this case you can activate it by going to the attributes of the root this
  page and check the "Display multicolumns dropdown". Then you can fine-tune the
- display of columns `through options for this mode <https://web.archive.org/web/20180224031131/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/theme-options#full_width_multicolumn>`_ .
+ display of columns `through options for this mode <./03a-theme-options.html#full-width-multicolumn>`_ .
 
 3. Mega-Menu
 ================

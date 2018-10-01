@@ -30,11 +30,9 @@ Blocks
     Carousel, Sliders, Portfolio, Filtering.. Endless possibilities
     with page-list templates!
 
-**********    
-Navigation
-**********
-
-  * `Navigation <https://web.archive.org/web/20180111065348/http://supermint3.myconcretelab.com:80/index.php/blocks/navigation>`_:
+**********************************************
+ `Navigation <./05b-blocks-navigation.html>`_
+**********************************************
     Different templates for the autonav block
 
 *****
@@ -69,7 +67,7 @@ Features
 Pie chart
 *********
 
-  * `Pie chart <http://supermint3.myconcretelab.com:80/index.php/blocks/pie-chart>`_: 
+  * `Pie chart <http://supermint3.myconcretelab.com:80/index.php/blocks/pie-chart>`_:
     Create highly customizable, very easy to implement and responsive
     pie chart to impress your audience.
 
@@ -77,7 +75,7 @@ Pie chart
 FAQ
 ***
 
-  * `FAQ <https://web.archive.org/web/20180109200746/http://supermint3.myconcretelab.com:80/index.php/blocks/faq>`_: 
+  * `FAQ <https://web.archive.org/web/20180109200746/http://supermint3.myconcretelab.com:80/index.php/blocks/faq>`_:
     Supermint can display Frequently asked question as a accordion.
 
 **********

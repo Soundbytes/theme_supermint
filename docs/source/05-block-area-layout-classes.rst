@@ -7,6 +7,7 @@ How to intensely use custom templates & classes for both Blocks, Area & Layouts
    :maxdepth: 3
    
    05a-blocks
+   05b-blocks-navigation
 
 *******************
 Class and templates
@@ -83,7 +84,7 @@ acquainted with those available with Supermint.
 
 * For a list of classes for Areas it's in the
   Feature section> Page & miscellaneous>
-  `Area classes <https://web.archive.org/web/20180111065122/http://supermint3.myconcretelab.com/index.php/features/page-customization/area-classes>`_
+  `Area classes <./06-area-classes.html>`_
 
 * And finally you will find nothing yet on layouts because the feature is so
   new, I did not even study the subject. But beware, it could be very powerful.

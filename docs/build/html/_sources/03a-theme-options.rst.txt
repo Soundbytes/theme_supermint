@@ -204,6 +204,8 @@ Supermint Navigation
 
 -----
 
+.. _disable-auto-embed-nav:
+
 **Disable Auto embed navigation**
     If disabled, a global area will let you put whitch block you want for nav.
 
@@ -309,6 +311,8 @@ Dropdown multicolumns
     "Display multi-columns dropdown" is activated
 
 -----
+
+.. _full-width-multicolumn:
 
 **Multicolumns position -**
     Display multi-columns nav as full width or under parent
