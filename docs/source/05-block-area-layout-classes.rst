@@ -8,6 +8,7 @@ How to intensely use custom templates & classes for both Blocks, Area & Layouts
    
    05a-blocks
    05b-blocks-navigation
+   05c-blocks-image
 
 *******************
 Class and templates
@@ -91,4 +92,5 @@ acquainted with those available with Supermint.
 
 ------
 
-Original reference: web.archive.org `page <https://web.archive.org/web/20180111065122/http://supermint3.myconcretelab.com:80/index.php/documentation/block-area-layout-classes>`_
+Original reference: web.archive.org
+`page <https://web.archive.org/web/20180111065122/http://supermint3.myconcretelab.com:80/index.php/documentation/block-area-layout-classes>`_

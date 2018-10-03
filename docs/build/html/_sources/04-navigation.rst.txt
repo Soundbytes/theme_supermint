@@ -8,16 +8,16 @@ Discover how to manage different type of navigation, mega-menu, columns...
 Choosing a navigation type
 **************************
 
-The first thing to ask is what is the type of navigation that best suits your
-project. Once the choice made, go to theme options pages in the sub topic
-Navigation / navigation style and select from options the one you want. Then
-read the section below that corresponds to your choice. Only the **Mega-menu**
+The first thing to ask is what is the type of navigation that best suits the
+project. Once that choice is made, go to theme options pages in the sub topic
+Navigation / navigation style and select from options the wanted type. Then
+read the section below that corresponds to the choice. Only the **Mega-menu**
 is common to both types of navigation.
 
-* Disable auto embed navigation: Supermint has an auto embed navigation system.
-  For those that need more controls on autonav block, an 
+* **Disable auto embed navigation**: Supermint has an auto embed navigation
+  system.  For those that need more controls on autonav block, an
   `option in the theme option <./03a-theme-options.html#disable-auto-embed-nav>`_
-  page lets you to disable the auto embedding navigation. In this case add an
+  page allows disabling the auto embedding navigation. In this case add an
   autonav block on the Navigation top Area with Supermint or Supermint Dropdown
   custom template on it.
 
@@ -27,7 +27,7 @@ is common to both types of navigation.
 Regular drop-down mode
 **********************
 
-Once type Regular drop-down mode selected, you can choose from three kinds of
+Once type **Regular drop-down mode** is selected, choose from three kinds of
 display sub-menu.
 
 1. Default
@@ -36,19 +36,20 @@ display sub-menu.
 
 2. Multi-columns
 ================
- Display children as column (Activated by a attribute).
+ Display children as column ``Activated by a attribute``.
 
- This mode requires that you have at least one level below the root level pages.
- In this case you can activate it by going to the attributes of the root this
- page and check the "Display multicolumns dropdown". Then you can fine-tune the
- display of columns `through options for this mode <./03a-theme-options.html#full-width-multicolumn>`_ .
+ This mode requires that there is at least one level below the root level pages.
+ In this case, activate it by going to the attributes of the root of this
+ page and check the **Display multicolumns dropdown**. Then fine-tune
+ the display of columns
+ `through options for this mode <./03a-theme-options.html#full-width-multicolumn>`_ .
+
+ < image missing >
 
 3. Mega-Menu
 ================
-
-
- Display columns where content is keep from a Stack. Activated by the existence
- of a stack
+ Display columns where content is keep from a Stack.
+ ``Activated by the existence of a stack``
 
 -----
 
@@ -59,34 +60,37 @@ Slide mode
 **********
 
 The sliding navigation is an original effect where the full page slides down to
-reveal the subnav. You will find many options to take control of the system in
-the options theme page.
+reveal the subnav. Find 
+`many options <./03a-theme-options.html#slide-navigation-options>`_ to take
+control of the system in the options theme page.
 
 These subnav can be displayed in **3 different ways**.
 
-1. **Type 1**: Level 1 & level2 with description
+1. **Type 1**: Level 1 & level 2 with description
 2. **Type 2**: Level 1, level 2 & level 3
 3. **Type 3**: Level 1 & level 2 without description
 
-You can choose which type thanks to the page attribute on the root level page :
+Choose which type thanks to the page attribute on the root level page :
 
 < image missing >
 
 **Case study:**
 
-Imagine a site with four top-level page: **Home**,**About**, **Work** and **Services**.
+Imagine a site with four top-level pages: **Home**, **About**, **Work** and
+**Services**.
 
-* The home page has no children. The attribute is left unchanged (fig 1). The
-  about page contains three sub-pages. We will use here the type 1, subpages
+* The Home page has no children. The attribute is left unchanged (fig 1).
+
+* The About page contains three sub-pages. We will use here the type 1, subpages
   appear here with a small description.
 
-* The Work page, it contains four subpages containing itself several sub pages:
+* The Work page contains four subpages containing itself several sub pages:
   category pages (level2) and pages of work (level3). In this case we use the
   type 2 that displays the categories belonging and work there.
 
-* Finally, the Services page that contains a large number of services. We use
+* The Services page that contains a large number of services. We use
   here the type 3 to display a large number of pages at level 2. This type of
-  navigation is also suitable for products of ecommerce, a portfolio, articles ...
+  navigation is also suitable for products of ecommerce, portfolio and articles.
 
 -----
 
@@ -98,23 +102,23 @@ Mega menu
 *********
 
 Both systems can display rich dropdown content. The mega-dropdown is just the
-display from a Stack on your dashboard. The system shows one stack by columns
+display from a Stack on the dashboard. The system shows one stack by columns
 (with capabilities for assembling blocks on each other for certain columns) and
 can display the block name optionally.
 
 **Add a Mega-menu under a page**
 
-* Create a stack named **with the handle of the root page**. If you root page is
+* Create a stack named **with the handle of the root page**. If the root page is
   "My Page" the handle would be "my-page" so the name of the stack will be
   "**mega_menu_my-page**" (note the difference between _ and -).
 
-* Then, add block to the stack. On each block you can optionally click and
-  choose "Advanced" to name your block. This name can be optionally displayed on
+* Then, add the block to the stack. On each block, optionally click and
+  choose "Advanced" to name the block. This name can be optionally displayed on
   top of the block, into the mega menu.
 
 * Each block is rendered in a new column. To stack different block down the
   previous, start the name of the block by "-follow-". In this case the block
-  will be rendered **UNDER** the previous. So a block you want to call
+  will be rendered **UNDER** the previous. So a block to be called
   "Our Features" call it "-follow-Our Features" to place it under the previous.
 
 -----
@@ -125,19 +129,20 @@ can display the block name optionally.
 Lateral Mode
 ************
 
-Lateral navigation is a modern way to display page links. It use also the
-quaternary color but this is overridable with which color you want in the
-theme customization. You will some option in the 
+Lateral navigation is a modern way to display page links. It also uses the
+quaternary color but this is overridable with the color chosen in the
+theme customization. Find some options in the
 `related section <./03a-theme-options.html#lateral-mode>`_ .
 
 This navigation is activated by selecting theme in
 `the navigation style option <./03a-theme-options.html#supermint-navigation>`_ .
 
+< example is missing >
+
 Header & footer
 ===============
-You have seen in the example a logo on top and content on footer. Both are
-blocks kept from stack to let you have complete creativity and liberty on what
-to put on.
+See in the example, a logo on top and content on footer. Both are blocks kept
+from stack to allow complete creativity and liberty on what to put on.
 
 
     * The header stack must be named ``Lateral Navigation Header``
@@ -146,21 +151,38 @@ to put on.
 Link style
 ==========
 
-To fit exactly to what you expect to have in your design, you can choose the font-family,
-from the one chosen in the font section, for the navigation links. You can also choose
-to uppercase links.
+For the navigation links choose the font-family from the one chosen in the
+font section, to exactly fit the design expectations. Optionally choose to
+uppercase links.
 
 -----
 
 *****************************
 Wide Large Top drop-down mode
 *****************************
-This Mode displays a full width bar with items inside. This mode works well 
-when the 
+This Mode displays a full width bar with items inside. This mode works well
+when the
 `top bar is hidden <./03a-theme-options.html#display-top-bar-area>`_ .
 The logo comes from a stack named **Site Logo**.
 
+< Example is missing >
 
+*****************
+Mobile navigation
+*****************
+ There are different ways to achieve a navigation for small screen.
+
+* The first is to add an autonav in the Sitewide Responsive Navigation. On this
+  block set as custom template **Supermint Full Screen** or **Supermint Mmenu**.
+  Both display a top bar once the screen is smaller that **768px**. Both can
+  display a **logo** on this bar, where content are taken from the Stack
+  **Site Logo**, display a search box on the right if a result page is choosen
+  in the theme option page. Both have options in the theme option page. Try it
+  to find which one fits the design expectations.
+
+* The second way is to work with lateral navigation that provides a button on
+  a small screen to open/close the lateral navigation.
+  
 ------
 
 Original reference: web.archive.org `page <https://web.archive.org/web/20180210232248/http://supermint3.myconcretelab.com:80/index.php/documentation/navigation>`_

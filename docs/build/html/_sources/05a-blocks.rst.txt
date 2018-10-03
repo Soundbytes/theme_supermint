@@ -9,16 +9,16 @@ Blocks
 
   **That's simple:**
 
-  Themes sold with ten blocks, once installed, just overload the sidebar until
-  losing any legibility and fun to use, so With Supermint all generally
-  available functionality through standard block are integrated with existing
-  type-block via the Custom template or other system such as clips. Everything
+  Themes provided with ten blocks, once installed, just overload the sidebar
+  until losing any legibility and fun to use, so With Supermint all generally
+  available functionality through standard block are **integrated with existing
+  type-block** via the Custom template or other system such as clips. Everything
   is easier and the race to the largest number of standard block becomes
   accidental.
 
   Many custom templates for many blocks are available with supermint. They allow
-  to fully integrate the CMS functionality to Supermint and especially to enrich
-  the display functionality. Available are templates for blocks such as page
+  to **fully integrate the CMS functionality** to Supermint and especially to
+  **enrich the display functionality**. Available are templates for blocks such as page
   list, Autonav, Image block, Image slider, FAQ, ...
 
   You have never heard of block models ?
@@ -35,11 +35,9 @@ Blocks
 **********************************************
     Different templates for the autonav block
 
-*****
-Image
-*****
-
-  * `Image <https://web.archive.org/web/20180111065454/http://supermint3.myconcretelab.com:80/index.php/blocks/image>`_:
+**********************************
+`Image <./05c-blocks-image.html>`_
+**********************************
     All custom templates and classes for the built-in image block
 
 ************
@@ -88,4 +86,4 @@ All others
 ------
 
 Original reference: web.archive.org
-`page <https://web.archive.org/web/20180111065448/http://supermint3.myconcretelab.com:80/index.php/blocks>`_
+`page <https://web.archive.org/web/20180327085133/http://supermint3.myconcretelab.com:80/index.php/blocks>`_
