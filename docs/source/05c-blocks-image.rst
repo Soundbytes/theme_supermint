@@ -11,7 +11,9 @@ Image
 Custom Classes
 **************
 
-==============
+
+.. index:: Classes; Smoked
+
 Smoked Classes
 ==============
  Add a subtle color overlay on image to fit exactly with your color scheme
@@ -23,12 +25,15 @@ Smoked Classes
        + quaternary-smoked
        + white-smoked
 
-=============
+.. index:: Classes; No-text
+
 No Text class
 =============
      Disable the displaying of Heading in image
 
        + no-text
+
+.. index:: Classes; Height
 
 ==============
 Height Classes
@@ -40,7 +45,9 @@ Height Classes
        + height-50
        + height-30
 
-=============
+
+.. index:: Classes; Into-columns
+
 Miscellaneous
 =============
  **into-columns** is used when the Supermint Header template
@@ -53,7 +60,9 @@ Miscellaneous
 Custom templates
 ****************
 
-================
+
+.. index:: Templates; Header
+
 Supermint Header
 ================
  Below is the **Supermint Header** custom template. This template supports
@@ -80,8 +89,8 @@ Below we have added a content block under the image block with the custom class
 .. image:: ./figures/blocks_image/supermint-header-with-white-smoked-class.jpg
 
 
+.. index:: Templates; Columns
 
-===================
 Supermint 2 columns
 ===================
 Here the text is come from the "Alt.text" field in the image block. This
@@ -89,7 +98,9 @@ template also support smoked class.
 
 < example missing >
 
-===============
+
+.. index:: Templates; Hover
+
 Supermint Hover
 ===============
 In the live demonstration the images bounce when hovered with the cursor.
@@ -102,25 +113,28 @@ In the live demonstration the images bounce when hovered with the cursor.
 
 .. image:: ./figures/blocks_image/supermint-hover-alternate-description-and-smoked-class.jpg
 
-=================
+
+.. index:: Templates; Caption
+
 Supermint caption
 =================
+
  This custom work exactly as the default template for the image block but with
  a caption.
- 
+
  Set it outside
 
 .. image:: ./figures/blocks_image/supermint-caption-set-outside.jpg
- 
-or inside the image, set the color (primary,..) 
- 
+
+or inside the image, set the color (primary,..)
+
 .. image:: ./figures/blocks_image/supermint-caption-set-inside.jpg
 
 and for inside, set if it will show only when over.
- 
+
 .. image:: ./figures/blocks_image/supermint-caption-set-inside-on-hover.jpg
 
- 
+
 All these settings can be set by `Custom classes <./05-block-area-layout-classes.html>`_
 on the block.
 
