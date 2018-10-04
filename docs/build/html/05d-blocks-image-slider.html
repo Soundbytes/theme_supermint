@@ -1,0 +1,192 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Blocks, Image Slider &#8212; Supermint  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Area Classes" href="06-area-classes.html" />
+    <link rel="prev" title="Image" href="05c-blocks-image.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="06-area-classes.html" title="Area Classes"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="05c-blocks-image.html" title="Image"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="05-block-area-layout-classes.html" accesskey="U">Block - Area - Layout classes</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="blocks-image-slider">
+<span id="index-0"></span><h1>Blocks, Image Slider<a class="headerlink" href="#blocks-image-slider" title="Permalink to this headline">¶</a></h1>
+<p>There are two types of image sliders.</p>
+<ul class="simple">
+<li><a class="reference external" href="./05d-blocks-image-slider.html#id1">supermint-simple</a>
+- a manual slide show controlled by the user with a choice of transitions.</li>
+<li><a class="reference external" href="./05d-blocks-image-slider.html#id2">supermint-slider</a>
+- an automatic slide show with many options</li>
+</ul>
+<div class="section" id="adding-a-slider-block">
+<h2>Adding a slider block<a class="headerlink" href="#adding-a-slider-block" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Reference the concrete5
+<a class="reference external" href="https://documentation.concrete5.org/editors/in-page-editing/block-areas/add-block">add a block</a>
+documentation.  In the <strong>Multimedia</strong> section choose the <strong>Image slider</strong>
+block.</li>
+<li>Drag the block into the intended area.</li>
+</ol>
+<img alt="_images/blocks-image-slider-add.jpg" src="_images/blocks-image-slider-add.jpg" />
+</div>
+<div class="section" id="edit-sliders-custom-template">
+<h2>Edit Sliders Custom Template<a class="headerlink" href="#edit-sliders-custom-template" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Reference the concrete5
+<a class="reference external" href="https://documentation.concrete5.org/editors/in-page-editing">in page editing</a>
+documentation.</li>
+<li>Click on the slider block to begin editing.</li>
+</ol>
+<img alt="_images/blocks-image-slider-edit-block-menu.jpg" src="_images/blocks-image-slider-edit-block-menu.jpg" />
+<ol class="arabic simple" start="3">
+<li>Choose the <strong>Design and Custom Template</strong> option in the pop up menu.</li>
+</ol>
+<hr class="docutils" />
+<ol class="arabic simple" start="4">
+<li>Then choose the <strong>gear</strong> icon in the edit menu bar.</li>
+</ol>
+<img alt="_images/blocks-image-slider-edit-block-menu2.jpg" src="_images/blocks-image-slider-edit-block-menu2.jpg" />
+<hr class="docutils" />
+<ol class="arabic simple" start="5">
+<li>In <strong>Custom Template</strong> there are two sliders that can be selected.</li>
+</ol>
+<ul class="simple">
+<li>supermint-simple</li>
+<li>supermint-slider</li>
+</ul>
+<img alt="_images/blocks-image-slider-edit-block-menu3.jpg" src="_images/blocks-image-slider-edit-block-menu3.jpg" />
+<ol class="arabic simple" start="6">
+<li>The design of the image-slider is made to be displayed in full width. If the
+block is inserted into a small Area, like columns, the custom class
+<strong>into-columns</strong> must be applied on the block.</li>
+</ol>
+<hr class="docutils" />
+<ol class="arabic simple" start="7">
+<li>The Supermint options can be selected in the dashboard. Click on <strong>Sliders</strong>.</li>
+</ol>
+<img alt="_images/concrete5-dashboard-theme-supermint-options2.jpg" src="_images/concrete5-dashboard-theme-supermint-options2.jpg" />
+<hr class="docutils" />
+<ol class="arabic simple" start="8">
+<li>See the theme dashboard.</li>
+</ol>
+<img alt="_images/blocks-image-slider-simple-theme-dashboard.jpg" src="_images/blocks-image-slider-simple-theme-dashboard.jpg" />
+<div class="section" id="id1">
+<h3>Supermint Simple<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>A manual slide show controlled by the user with one admininstrative option
+<strong>Image Slider Transition</strong>.</p>
+</div>
+<div class="section" id="id2">
+<h3>Supermint Slider<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>An automatic or manual slide show with many options.</p>
+<img alt="_images/blocks-image-slider-theme-dashboard.jpg" src="_images/blocks-image-slider-theme-dashboard.jpg" />
+<hr class="docutils" />
+<p>Original reference: web.archive.org
+<a class="reference external" href="https://web.archive.org/web/20180403193123/http://supermint3.myconcretelab.com:80/index.php/blocks/image-slider">page</a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Blocks, Image Slider</a><ul>
+<li><a class="reference internal" href="#adding-a-slider-block">Adding a slider block</a></li>
+<li><a class="reference internal" href="#edit-sliders-custom-template">Edit Sliders Custom Template</a><ul>
+<li><a class="reference internal" href="#id1">Supermint Simple</a></li>
+<li><a class="reference internal" href="#id2">Supermint Slider</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="05c-blocks-image.html"
+                        title="previous chapter">Image</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="06-area-classes.html"
+                        title="next chapter">Area Classes</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/05d-blocks-image-slider.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="06-area-classes.html" title="Area Classes"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="05c-blocks-image.html" title="Image"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="05-block-area-layout-classes.html" >Block - Area - Layout classes</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, northdecoder.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.0.
+    </div>
+  </body>
+</html>

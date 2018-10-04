@@ -40,12 +40,10 @@ Blocks
 **********************************
     All custom templates and classes for the built-in image block
 
-************
-Image Slider
-************
-
-  * `Image Slider <https://web.archive.org/web/20180111065459/http://supermint3.myconcretelab.com:80/index.php/blocks/image-slider>`_:
-    Use custom templates to display image slider in different way
+*************************************************
+`Image Slider <./05d-blocks-image-slider.html>`_
+*************************************************
+    Use custom templates to display image slider in different ways
 
 ************
 Testimonials
