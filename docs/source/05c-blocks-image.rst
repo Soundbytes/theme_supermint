@@ -1,6 +1,6 @@
-#####
-Image
-#####
+#############
+Blocks, Image
+#############
   All custom templates and classes for the built-in image block.
 
   Supermint use intensivly the built-in image block in different way. Discover

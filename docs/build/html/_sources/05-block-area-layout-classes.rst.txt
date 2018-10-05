@@ -10,6 +10,7 @@ How to intensely use custom templates & classes for both Blocks, Area & Layouts
    05b-blocks-navigation
    05c-blocks-image
    05d-blocks-image-slider
+   05e-blocks-testimonial
 
 *******************
 Class and templates

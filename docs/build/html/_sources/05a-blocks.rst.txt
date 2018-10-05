@@ -45,12 +45,10 @@ Blocks
 *************************************************
     Use custom templates to display image slider in different ways
 
-************
-Testimonials
-************
-
-  * `Testimonials <https://web.archive.org/web/20180212145230/http://supermint3.myconcretelab.com:80/index.php/blocks/testimonials>`_:
-    Supermint offer great templates for the built-in testimonial block
+***********************************************
+`Testimonials <./05e-blocks-testimonial.html>`_
+***********************************************
+    Supermint has a template for the built-in testimonial block
 
 ********
 Features
