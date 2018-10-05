@@ -59,7 +59,7 @@ Blocks
 Pie chart
 *********
 
-  * `Pie chart <http://supermint3.myconcretelab.com:80/index.php/blocks/pie-chart>`_:
+  * `Pie chart <https://web.archive.org/web/20180327085133/http://supermint3.myconcretelab.com/index.php/blocks/pie-chart>`_:
     Create highly customizable, very easy to implement and responsive
     pie chart to impress your audience.
 
