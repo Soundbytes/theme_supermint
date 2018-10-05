@@ -50,12 +50,10 @@ Blocks
 ***********************************************
     Supermint has a template for the built-in testimonial block
 
-********
-Features
-********
-
-  * `Features <https://web.archive.org/web/20180323160658/http://supermint3.myconcretelab.com:80/index.php/blocks/features>`_:
-    Multiples custom templates for the feature block
+****************************************
+`Features <./05f-blocks-features.html>`_
+****************************************
+    Multiple custom templates for the feature block
 
 *********
 Pie chart
