@@ -21,7 +21,7 @@ Blocks
   **enrich the display functionality**. Available are templates for blocks such as page
   list, Autonav, Image block, Image slider, FAQ, ...
 
-  You have never heard of block models ?
+  Learn more about block models.
   `Go here <https://documentation.concrete5.org/editors/in-page-editing/block-areas/custom-templates>`_
 
 **************************************
@@ -55,20 +55,17 @@ Blocks
 ****************************************
     Multiple custom templates for the feature block
 
-*********
-Pie chart
-*********
+******************************************
+`Pie chart <./05g-blocks-pie-chart.html>`_
+******************************************
+    Impress visitors with a highly customizable, very easy to implement and
+    responsive pie chart.
 
-  * `Pie chart <https://web.archive.org/web/20180327085133/http://supermint3.myconcretelab.com/index.php/blocks/pie-chart>`_:
-    Create highly customizable, very easy to implement and responsive
-    pie chart to impress your audience.
-
-***
-FAQ
-***
-
-  * `FAQ <https://web.archive.org/web/20180109200746/http://supermint3.myconcretelab.com:80/index.php/blocks/faq>`_:
-    Supermint can display Frequently asked question as a accordion.
+*****************************************
+`FAQ <./05h-blocks-faq-accordion.html>`_
+*****************************************
+    Supermint can display Frequently asked question as a accordion. Just add the
+    custom template on the block to enable the awesome.
 
 **********
 All others

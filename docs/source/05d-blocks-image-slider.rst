@@ -18,7 +18,7 @@ Adding a slider block
    documentation.  In the **Multimedia** section choose the **Image slider**
    block.
    
-2. Drag the block into the intended area.
+2. Drag and drop the block into the intended area.
 
 .. image:: ./figures/blocks_image_slider/blocks-image-slider-add.jpg
 
