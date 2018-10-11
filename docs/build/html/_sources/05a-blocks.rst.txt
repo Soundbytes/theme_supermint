@@ -67,11 +67,9 @@ Blocks
     Supermint can display Frequently asked question as a accordion. Just add the
     custom template on the block to enable the awesome.
 
-**********
-All others
-**********
-
-  * `All others <https://web.archive.org/web/20180109201113/http://supermint3.myconcretelab.com:80/index.php/blocks/all-others>`_:
+********************************************
+`All others <./05i-blocks-all-others.html>`_
+********************************************
     All other built-in blocks of Concrete5 that Supermint supports
 
 ------

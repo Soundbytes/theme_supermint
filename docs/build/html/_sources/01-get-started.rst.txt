@@ -1,8 +1,12 @@
 ********************
 Welcome to Supermint
 ********************
-A theme for CMS `concrete5 <https://www.concrete5.org/>`_ .
+ A theme for CMS `concrete5 <https://www.concrete5.org/>`_ .
 
+ This documentation has been copied and pasted from the web archive
+ `page <https://web.archive.org/web/20170113174552/http://supermint3.myconcretelab.com:80/documentation/get-started>`_,
+ and edited somewhat for clarity.
+ 
 Fundamental principles:
 -----------------------
 
@@ -84,6 +88,7 @@ The best way to customize **theme files** and keep the **update functionality** 
 
 ------
 
-Original reference: web.archive.org `page <https://web.archive.org/web/20170113174552/http://supermint3.myconcretelab.com:80/documentation/get-started>`_
+Original reference: web.archive.org
+`page <https://web.archive.org/web/20170113174552/http://supermint3.myconcretelab.com:80/documentation/get-started>`_
 
 

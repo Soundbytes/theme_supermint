@@ -14,6 +14,7 @@ How to intensely use custom templates & classes for both Blocks, Area & Layouts
    05f-blocks-features
    05g-blocks-pie-chart
    05h-blocks-faq-accordion
+   05i-blocks-all-others
 
 *******************
 Class and templates
