@@ -45,20 +45,27 @@
   <div class="section" id="welcome-to-supermint">
 <h1>Welcome to Supermint<a class="headerlink" href="#welcome-to-supermint" title="Permalink to this headline">¶</a></h1>
 <blockquote>
-<div><p>A theme for CMS <a class="reference external" href="https://www.concrete5.org/">concrete5</a> .</p>
-<p>This documentation has been copied and pasted from the web archive
+<div>A theme for CMS <a class="reference external" href="https://www.concrete5.org/">concrete5</a> .</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This documentation has been copied and pasted from the web archive
 <a class="reference external" href="https://web.archive.org/web/20170113174552/http://supermint3.myconcretelab.com:80/documentation/get-started">page</a>,
 and edited somewhat for clarity.</p>
-</div></blockquote>
+</div>
 <div class="section" id="fundamental-principles">
 <h2>Fundamental principles:<a class="headerlink" href="#fundamental-principles" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Use as much as possible of existing blocks of Concrete5</li>
-<li>Very intensive use of custom template for blocks</li>
-<li>Use just as intensive classes for blocks and areas</li>
-<li>Regular use of pages and files attributes</li>
+<li>Very intensive use of
+<a class="reference external" href="http://documentation.concrete5.org/editors/in-page-editing/block-areas/custom-templates/">custom template for blocks</a></li>
+<li>Use just as intensive
+<a class="reference external" href="./05-block-area-layout-classes.html">classes for blocks and areas</a></li>
+<li>Regular use of
+<a class="reference external" href="https://documentation.concrete5.org/editors/dashboard/pages-and-themes/attributes">pages</a>
+and
+<a class="reference external" href="https://documentation.concrete5.org/editors/dashboard/files/attributes">files attributes</a></li>
 <li>Anything that is not regulated by the above mentioned ways will be through
-the options themes of the in the dashboard</li>
+the <a class="reference external" href="03-options-framework.html">options themes</a> of the in the dashboard</li>
 </ul>
 <p>So if you master well the custom templates, and classes for block areas and the
 attributes, you will take great pleasure in creating your site with Supermint.</p>
@@ -77,6 +84,7 @@ you will master these principles and will join the group of happy users.</p>
 <p>If you choose to install a <strong>starting point from Supermint</strong>, please do it
 on a fresh Concrete5 installation.   When you will install Concrete5 on a
 server you have two choice of content, choose Empty Site.</p>
+<p>&lt;example image missing&gt;</p>
 </li>
 <li><p class="first"><strong>Manual installation of Supermint</strong></p>
 <ol class="arabic simple">
@@ -87,8 +95,17 @@ server you have two choice of content, choose Empty Site.</p>
 <li>Click the <strong>install</strong> button.</li>
 </ol>
 </li>
+</ul>
+<blockquote>
+<div><p><strong>Installation page &amp; Starting points</strong></p>
+<p>Once the install button has been clicked you will see a gallery with all
+Starting points available. For each, you see a button for a preview,
+another to choose it. Once your choice has been made, click on bottom on the
+install button. <strong>This can take some time, don’t refresh or leave the page !</strong></p>
+</div></blockquote>
+<ul>
 <li><p class="first"><strong>LAST STEP</strong></p>
-<p>Read the documentation to discover how to play with Supermint !</p>
+<p>Read this documentation to discover how to play with Supermint !</p>
 </li>
 </ul>
 <hr class="docutils" />
@@ -100,17 +117,21 @@ server you have two choice of content, choose Empty Site.</p>
 <li><p class="first"><strong>If you want to customize css:</strong></p>
 <p>Create a file named supermint.css placed at root/application/themes/supermint/css/supermint.css</p>
 </li>
-<li><p class="first"><strong>If you want modify a page-type:</strong></p>
-<p>Copy/paste the page-type file from packages/theme_supermint/themes/supermint/left_sidebar.php into root/themes/supermint/left_sidebar.php and modify it as you want</p>
+<li><p class="first"><strong>If you want modify a page-type</strong>:</p>
+<p>Copy/paste the page-type file from
+packages/theme_supermint/themes/supermint/left_sidebar.php
+into
+root/themes/supermint/left_sidebar.php and modify it as you want</p>
 </li>
-<li><p class="first"><strong>If you want to add a page-type:</strong></p>
+<li><p class="first"><strong>If you want to add a page-type</strong>:</p>
 <p>Add a file into root/application/themes/supermint/my_page_type.php. After go to dashboard &gt; page-types &gt; add a page type, name it and give as handle the file name (my_page_type). This page type will be available now when you will create a new page.</p>
 </li>
-<li><p class="first"><strong>If you want to modify the header.php or footer.php or any other files from Supermint theme elements folder:</strong></p>
+<li><p class="first"><strong>If you want to modify the header.php or footer.php</strong></p>
+<p>or any other files from Supermint theme elements folder:</p>
 <dl class="docutils">
 <dt>Copy/paste the header file</dt>
-<dd><p class="first">from <cite>packages/theme_supermint/themes/supermint/elements/header.php</cite></p>
-<p>to <cite>root/application/themes/supermint/elements/header.php</cite></p>
+<dd><p class="first">from <code class="docutils literal notranslate"><span class="pre">packages/theme_supermint/themes/supermint/elements/header.php</span></code></p>
+<p>to <code class="docutils literal notranslate"><span class="pre">root/application/themes/supermint/elements/header.php</span></code></p>
 <p class="last">and change what you want into this.</p>
 </dd>
 </dl>

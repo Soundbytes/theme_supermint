@@ -1,10 +1,11 @@
-.. index:: Option; Slider
-.. index:: Option; Carousel
+.. index:: Option; carousel
 
 ==============
 Slider Options
 ==============
     Fine tune slider or carousels on different custom templates.
+
+.. index:: Option; carousel-page-list
 
 ******************
 Page-list Carousel
@@ -113,6 +114,8 @@ Page-list Carousel
 * id : ``carousel_meta``
 
 
+.. index:: Option; carousel-stack
+
 **************
 Stack Carousel
 **************
@@ -210,6 +213,9 @@ Display Arrow on top right of blocks
 
 -----
 
+.. index:: Option; slider
+.. index:: Option; slider-simple
+
 ************
 Simple slide
 ************
@@ -224,6 +230,8 @@ Simple slide
 * type : ``select``
 * default : ``Soft scale``
 * id : ``image_slider_effect``
+
+.. index:: Option; slider-image
 
 
 ************
@@ -314,4 +322,4 @@ Image Slider
 
 
 Original reference: web.archive.org
-`page <https://web.archive.org/web/20171120024942/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/slides>`_
+`page <https://web.archive.org/web/20180403191248/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/slides>`_

@@ -1,19 +1,21 @@
-.. index:: Option; Theme
+.. index:: Option; theme
 
 =============
 Theme Options
 =============
-  Here you will find all options available in the theme
-  option page of Supermint with an explanation, type and
-  default value (with the base preset).
+ Here you will find all options available in the theme
+ option page of Supermint with an explanation, type and
+ default value (with the base preset).
+
+.. index:: Option; theme-layout
 
 ******
 Layout
 ******
 
-  For each page of the site play with these options
-  to fine tune design details as optional Area, Boxed
-  layout, Side-bar size.
+ For each page of the site play with these options
+ to fine tune design details as optional Area, Boxed
+ layout, Side-bar size.
 
 -----
 
@@ -104,17 +106,19 @@ Layout
 * id : ``content_padding``
 
 
+.. index:: Option; theme-blocks-templates
+
 ****************
 Blocks templates
 ****************
 
-    In this section you find options to control Block's custom template details
+ In this section you find options to control Block's custom template details
 
 
 
 Page List
 ---------
-    Options for the Built-in "Autonav" block
+ Options for the Built-in "Autonav" block
 
 -----
 
@@ -159,6 +163,8 @@ Feature
 -----
 
 
+.. index:: Option; theme-autonav
+
 Autonav
 -------
     Options for the Built-in "Autonav" block
@@ -187,6 +193,10 @@ Autonav
 * id : ``autonav_horizontal_icon``
 
 -----
+
+
+
+.. index:: Option; theme-supermint-navigation
 
 ********************
 Supermint Navigation
@@ -498,10 +508,12 @@ Responsive Lateral Nav (mmenu)
 
 -----
 
+.. index:: Option; theme-mega-menu
+
 *****************
 Mega menu options
 *****************
-    Options when a parent page displays a Stack as mega-menu
+ Options when a parent page displays a Stack as mega-menu
 
 -----
 
@@ -532,6 +544,8 @@ Mega menu options
 
 
 -----
+
+.. index:: Option; theme-navigation-slide
 
 ************************
 Slide Navigation options
@@ -660,7 +674,7 @@ Slide Navigation options
 
 -----
 
-
+.. index:: Option; theme-footer
 
 ******
 Footer
@@ -712,6 +726,7 @@ Footer
 * id : ``disable_footer_login``
 
 
+.. index:: Option; theme-popup
 
 
 *****
@@ -773,6 +788,8 @@ Button type for popup
 * default : ``Primary``
 * id : ``popup_button_color``
 
+.. index:: Option; theme-iframe-z-index-fix
+
 
 *************
 Miscellaneous
@@ -787,5 +804,5 @@ Miscellaneous
 -----
 
 Original reference: web.archive.org
-`page <https://web.archive.org/web/20161128024527/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/theme-options>`_
+`page <https://web.archive.org/web/20180327084949/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/theme-options>`_
 

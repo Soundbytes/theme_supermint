@@ -1,4 +1,4 @@
-.. index:: Option; Fonts
+.. index:: Option; fonts
 
 =============
 Font Options
@@ -32,7 +32,7 @@ that we do not like so much.
 
 .. note::
 
-   Many police has only mode Regular. Bold and italic will
+   Many |ss| police |se|  place has only mode Regular. Bold and italic will
    therefore rendering random manner following browsers.
 
 **Choose a Variant as default**
@@ -159,6 +159,9 @@ tablet and phones.
 * default : ``Roboto Condensed``
 * id : ``small``
 
+.. index:: Option; fonts-size
+.. index:: Fonts; size
+
 **********
 Fonts size
 **********
@@ -249,6 +252,7 @@ This option is only defined in the theme customization
 * default : ``0.8em``
 * id : ``small_tag_size``
 
+.. index:: Fonts; variation
 
 **************
 Font variation
@@ -300,6 +304,8 @@ Font variation
 * default : Off
 * id : h6_upp
 
+.. index:: Fonts; responsive
+
 ***************
 Responsive text
 ***************
@@ -345,4 +351,12 @@ Responsive text
 -----
 
 Original reference: web.archive.org
-`page <https://web.archive.org/web/20180109201123/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/fonts>`_
+`page <https://web.archive.org/web/20180403190916/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/fonts>`_
+
+.. |ss| raw:: html
+
+   <strike>
+
+.. |se| raw:: html
+
+   </strike>

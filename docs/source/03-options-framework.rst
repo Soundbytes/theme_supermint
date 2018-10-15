@@ -22,4 +22,5 @@ site appearance.
 
 ------
 
-Original reference: web.archive.org `page <https://web.archive.org/web/20161216130534/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework>`_
+Original reference: web.archive.org
+`page <https://web.archive.org/web/20180403192041/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework>`_
