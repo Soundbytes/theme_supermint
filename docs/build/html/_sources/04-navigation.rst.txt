@@ -1,18 +1,24 @@
 ==========
 Navigation
 ==========
-
-Discover how to manage different type of navigation, mega-menu, columns...
+ Discover how to manage different type of navigation, mega-menu, columns...
 
 **************************
 Choosing a navigation type
 **************************
+ The first thing to ask is what is the type of navigation that best suits the
+ project. Once that choice is made, go to theme options pages in the sub topic
+ Navigation / navigation style and select from options the wanted type. Then
+ read the section below that corresponds to the choice. Only the **Mega-menu**
+ is common to both types of navigation.
 
-The first thing to ask is what is the type of navigation that best suits the
-project. Once that choice is made, go to theme options pages in the sub topic
-Navigation / navigation style and select from options the wanted type. Then
-read the section below that corresponds to the choice. Only the **Mega-menu**
-is common to both types of navigation.
+1. In the dashboard choose Supermint Options->Theme options
+
+ .. image:: ./figures/navigation/dashboard-supermint-options-theme-options.jpg
+
+2. Choose a navigation option
+
+ .. image:: ./figures/navigation/theme-options-navigation.jpg
 
 * **Disable auto embed navigation**: Supermint has an auto embed navigation
   system.  For those that need more controls on autonav block, an
@@ -28,28 +34,73 @@ Regular drop-down mode
 **********************
 
 Once type **Regular drop-down mode** is selected, choose from three kinds of
-display sub-menu.
+display sub-menu, default, Multi-columns or Mega-Menu.
+
+ .. image:: ./figures/navigation/theme-options-navigation-regular-dropdown-mode.jpg
 
 1. Default
 ==========
- Simple dropdown ( Default behavior )
+ Simple dropdown ( Default behavior ), where **Multicolumns position** is
+ set to "Aligned left on parent"
+
+ Example:
+
+ .. image:: ./figures/navigation/regular-dropdown-example.jpg
 
 2. Multi-columns
 ================
- Display children as column ``Activated by a attribute``.
+ Display children as column ``Activated by an attribute``.
 
- This mode requires that there is at least one level below the root level pages.
- In this case, activate it by going to the attributes of the root of this
- page and check the **Display multicolumns dropdown**. Then fine-tune
+ This mode requires that there is *at least one level below the root level
+ pages*. In this case, activate it by going to the attributes of the root of
+ this page and check the **Display multicolumns dropdown**. Then fine-tune
  the display of columns
  `through options for this mode <./03a-theme-options.html#full-width-multicolumn>`_ .
 
- < image missing >
+-----
+
+ Example:
+
+ .. image:: ./figures/navigation/regular-dropdown-multicolumn-example.jpg
+
+-----
+
+Details:
+
+1. Go to the page to be edited.
+2. Click the gear icon, then choose "Attributes".
+
+ .. image:: ./figures/navigation/attribute-editor-select.jpg
+
+3. Scroll down on the left pane to the Supermint Navigation section, click the
+   button "Display multi-columns dropdown" to activate , then scroll
+   down on the right pane to "Display multi-columns dropdown".  Click the check
+   box labeled "Display multi-columns dropdown".  Click the save the changes
+   button.
+
+ .. image:: ./figures/navigation/display-multicolumns-dropdown.jpg
+
+4. Go to Dashboard->Supermint Options->Theme options->Supermint Navigation.
+   Scroll down to the section "Dropdown multicolumns mode".
+   Choose a number of links per columns smaller than the total number of links
+   assigned to the upper level menu.  The result should be similar to the 
+   example figure at the top of this section.
+
+ .. image:: ./figures/navigation/number-of-links-per-columns.jpg
 
 3. Mega-Menu
 ================
  Display columns where content is keep from a Stack.
  ``Activated by the existence of a stack``
+
+1. Go to Dashboard->Supermint Options->Theme options->Mega Menu
+2. Choose a "Mega columns width" with the slider.
+
+ .. image:: ./figures/navigation/theme-options-mega-menu.jpg
+
+3. Notice the wider columns in the dropdown menus.
+
+ .. image:: ./figures/navigation/regular-dropdown-multicolumn-example-400px-wide.jpg
 
 -----
 
@@ -60,9 +111,16 @@ Slide mode
 **********
 
 The sliding navigation is an original effect where the full page slides down to
-reveal the subnav. Find 
+reveal the subnav. Find
 `many options <./03a-theme-options.html#slide-navigation-options>`_ to take
 control of the system in the options theme page.
+
+1. Go to Dashboard->Supermint Options->Theme options->Supermint Navigation
+2. Choose **Navigation Style** "Slide mode"
+
+ .. image:: ./figures/navigation/theme-options-navigation-slide-mode.jpg
+
+-----
 
 These subnav can be displayed in **3 different ways**.
 
@@ -73,6 +131,7 @@ These subnav can be displayed in **3 different ways**.
 Choose which type thanks to the page attribute on the root level page :
 
 < image missing >
+
 
 **Case study:**
 
@@ -182,7 +241,7 @@ Mobile navigation
 
 * The second way is to work with lateral navigation that provides a button on
   a small screen to open/close the lateral navigation.
-  
+
 ------
 
 Original reference: web.archive.org `page <https://web.archive.org/web/20180210232248/http://supermint3.myconcretelab.com:80/index.php/documentation/navigation>`_
