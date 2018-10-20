@@ -3,9 +3,14 @@ Welcome to Supermint
 ********************
  A theme for CMS `concrete5 <https://www.concrete5.org/>`_ .
 
-.. Note:: This documentation has been copied and pasted from the web archive
+.. Note:: To help those in need, this documentation has been copied and pasted 
+ from the web archive
  `page <https://web.archive.org/web/20170113174552/http://supermint3.myconcretelab.com:80/documentation/get-started>`_,
- and edited somewhat for clarity.
+ and edited somewhat for clarity. A perfunctory comparison of the documented
+ options has been made by running supermint in concrete5 version 8.4.2 , however
+ full testing has not been done, and there is no assurance that theme features
+ are functioning as documented. As you read, please also consider that the 
+ English here was generously translated from French by the original author.
 
 Fundamental principles:
 -----------------------
