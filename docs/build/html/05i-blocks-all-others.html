@@ -1,0 +1,267 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Blocks, all others &#8212; Supermint  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Area Classes" href="06-area-classes.html" />
+    <link rel="prev" title="Blocks, FAQ accordion" href="05h-blocks-faq-accordion.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="06-area-classes.html" title="Area Classes"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="05h-blocks-faq-accordion.html" title="Blocks, FAQ accordion"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="05-block-area-layout-classes.html" accesskey="U">Block - Area - Layout classes</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="blocks-all-others">
+<span id="index-0"></span><h1>Blocks, all others<a class="headerlink" href="#blocks-all-others" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>All other built-in block of Concrete5 that Supermint support</div></blockquote>
+<div class="section" id="content-block">
+<span id="index-1"></span><h2>Content Block<a class="headerlink" href="#content-block" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Custom templates</div></blockquote>
+<div class="section" id="adding-a-content-block">
+<h3>Adding a content block<a class="headerlink" href="#adding-a-content-block" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Reference the concrete5
+<a class="reference external" href="https://documentation.concrete5.org/editors/in-page-editing/block-areas/add-block">add a block</a>
+documentation.  In the <strong>Basic</strong> section choose the <strong>Content</strong>
+block.</li>
+<li>Drag and drop the block into the intended area.</li>
+</ol>
+<blockquote>
+<div><img alt="_images/blocks-content-add.jpg" src="_images/blocks-content-add.jpg" />
+</div></blockquote>
+</div>
+<div class="section" id="popup-template">
+<h3>Popup template<a class="headerlink" href="#popup-template" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>This template opens the content of the Content block in a popup when
+a button is pressed! What is written in the block will be displayed in the
+popup.</p>
+<p>Overview</p>
+</div></blockquote>
+<ul class="simple">
+<li>In the first line put a &lt;button&gt; tag inside an &lt;h3&gt; heading tag.</li>
+<li>In the second line write the text to be popped in a &lt;p&gt; paragraph tag.</li>
+<li>Set <strong>Popup</strong> in the custom template.</li>
+</ul>
+<blockquote>
+<div>See the step by step details below.</div></blockquote>
+<div class="section" id="edit-the-content-block">
+<h4>Edit the content block<a class="headerlink" href="#edit-the-content-block" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Reference the concrete5
+<a class="reference external" href="https://documentation.concrete5.org/editors/in-page-editing">in page editing</a>
+documentation.</li>
+<li>Click on the Content block to begin editing.</li>
+<li>In the popup menu choose <strong>Edit Block</strong></li>
+</ol>
+<blockquote>
+<div><img alt="_images/blocks-content-edit.jpg" src="_images/blocks-content-edit.jpg" />
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic simple" start="4">
+<li>In the content editor choose <strong>Source</strong></li>
+</ol>
+<blockquote>
+<div><img alt="_images/blocks-content-editor.jpg" src="_images/blocks-content-editor.jpg" />
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic simple" start="5">
+<li>In the content editor source add html for the button and the text to be
+popped. Then click on <strong>Ok</strong>.</li>
+</ol>
+<blockquote>
+<div><img alt="_images/blocks-content-editor-source.jpg" src="_images/blocks-content-editor-source.jpg" />
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic simple" start="6">
+<li>In the content editor click on <strong>Save</strong></li>
+</ol>
+<blockquote>
+<div><img alt="_images/blocks-content-editor-save.jpg" src="_images/blocks-content-editor-save.jpg" />
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic simple" start="7">
+<li>Choose the <strong>Design and Custom Template</strong> option in the pop up menu.</li>
+</ol>
+<blockquote>
+<div><img alt="_images/blocks-content-select-design-custom-template.jpg" src="_images/blocks-content-select-design-custom-template.jpg" />
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic simple" start="8">
+<li>Choose the <strong>gear</strong> icon in the edit menu bar, choose the Custom
+Template <strong>Popup</strong> , then Save.</li>
+</ol>
+<blockquote>
+<div><img alt="_images/blocks-content-design-custom-template-popup-option.jpg" src="_images/blocks-content-design-custom-template-popup-option.jpg" />
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic simple" start="9">
+<li>Exit edit mode by clicking the pencil in the concrete5 edit bar menu, then
+publish the changes.</li>
+</ol>
+<blockquote>
+<div><img alt="_images/exit-edit-mode.jpg" src="_images/exit-edit-mode.jpg" />
+</div></blockquote>
+<hr class="docutils" />
+<ol class="arabic simple" start="10">
+<li>Try the new button. See the pop up message!</li>
+</ol>
+<blockquote>
+<div><img alt="_images/blocks-content-popup.jpg" src="_images/blocks-content-popup.jpg" />
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="image-caption">
+<h3>Image Caption<a class="headerlink" href="#image-caption" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Custom class add a special style to your content, ideal to add rich content
+under an image.</div></blockquote>
+</div>
+<div class="section" id="image-caption-inside">
+<h3>Image Caption Inside<a class="headerlink" href="#image-caption-inside" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Is another class that is made to create a layer on the image. As this uses
+advanced CSS technique will be sometimes displayed differently.</div></blockquote>
+</div>
+</div>
+<div class="section" id="date-navigation">
+<span id="index-2"></span><h2>Date Navigation<a class="headerlink" href="#date-navigation" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Custom template</div></blockquote>
+</div>
+<div class="section" id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Default template</div></blockquote>
+</div>
+<div class="section" id="file">
+<span id="index-3"></span><h2>File<a class="headerlink" href="#file" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Custom template</p>
+<p>The Supermint Button Custom Template display the link as a button with icon.</p>
+</div></blockquote>
+</div>
+<div class="section" id="next-previous">
+<span id="index-4"></span><h2>Next - Previous<a class="headerlink" href="#next-previous" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Custom template</p>
+<p>The Supermint Blog Custom Template display a next-previous in a nice way.</p>
+</div></blockquote>
+<hr class="docutils" />
+<p>Original reference: web.archive.org
+<a class="reference external" href="https://web.archive.org/web/20180403193447/http://supermint3.myconcretelab.com:80/index.php/blocks/all-others">page</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Blocks, all others</a><ul>
+<li><a class="reference internal" href="#content-block">Content Block</a><ul>
+<li><a class="reference internal" href="#adding-a-content-block">Adding a content block</a></li>
+<li><a class="reference internal" href="#popup-template">Popup template</a><ul>
+<li><a class="reference internal" href="#edit-the-content-block">Edit the content block</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#image-caption">Image Caption</a></li>
+<li><a class="reference internal" href="#image-caption-inside">Image Caption Inside</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#date-navigation">Date Navigation</a></li>
+<li><a class="reference internal" href="#discussion">Discussion</a></li>
+<li><a class="reference internal" href="#file">File</a></li>
+<li><a class="reference internal" href="#next-previous">Next - Previous</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="05h-blocks-faq-accordion.html"
+                        title="previous chapter">Blocks, FAQ accordion</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="06-area-classes.html"
+                        title="next chapter">Area Classes</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/05i-blocks-all-others.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="06-area-classes.html" title="Area Classes"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="05h-blocks-faq-accordion.html" title="Blocks, FAQ accordion"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="05-block-area-layout-classes.html" >Block - Area - Layout classes</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, northdecoder.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,230 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Page customization &#8212; Supermint  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Page Lists" href="09-page-lists.html" />
+    <link rel="prev" title="Stack Elements" href="07-stack-elements.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="09-page-lists.html" title="Page Lists"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="07-stack-elements.html" title="Stack Elements"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="page-customization">
+<h1>Page customization<a class="headerlink" href="#page-customization" title="Permalink to this headline">¶</a></h1>
+<p>Customize pages in many ways.</p>
+<div class="section" id="discover-how-to-personalize-a-page">
+<h2>Discover how to personalize a page<a class="headerlink" href="#discover-how-to-personalize-a-page" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="page-color">
+<span id="index-0"></span><h3>Page Color<a class="headerlink" href="#page-color" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>See in the top menu, and in <a class="reference external" href="https://web.archive.org/web/20180111065348/http://supermint3.myconcretelab.com:80/index.php/blocks/navigation">some template navigation</a>
+, a color that is assigned to pages. By default, the selected color is the
+<strong>primary</strong> theme color. Assign colors individually for each page by changing
+the attribute <strong>Main Page Color</strong>.</p>
+<p>[Sc: The attribute main_page_color]</p>
+</div></blockquote>
+</div>
+<div class="section" id="page-icon">
+<span id="index-1"></span><h3>Page Icon<a class="headerlink" href="#page-icon" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>Change the default icon for <strong>all pages</strong> or for each page
+<strong>separately</strong>.</p>
+<ul>
+<li><p class="first"><strong>To change the default icon applied to all pages</strong></p>
+<p>Reference the theme options page <em>Slide Navigation</em> section to change
+the <a class="reference external" href="./03a-theme-options.html#default-nav-block-icon">related option</a> .</p>
+</li>
+<li><p class="first"><strong>To change the icon of the pages separately</strong></p>
+<p>Edit the attribute of the page in question and choose an icon with the
+attribute Icon From FontAwesome.</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="miniature">
+<span id="index-2"></span><h3>Miniature<a class="headerlink" href="#miniature" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>The miniature pages are used in Supermint in <code class="docutils literal notranslate"><span class="pre">page-list</span></code>. This file
+dimension are adapted as required, so no need to resize the image, the theme
+will do it. To assign an image to a page, fill the <strong>Thumbnail</strong>
+attribute of this page with a valid image.</div></blockquote>
+<ul>
+<li><p class="first"><strong>Background image of a page</strong></p>
+<p>With Supermint, it is possible to add a background image to a page. In order
+to have a background image, simply fill in the attribute “background page” in
+property page.</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If the page is not in “Boxed” do not hesitate to use
+<a class="reference external" href="./06-area-classes.html#area-classes">area classes</a>
+that will give a pleasing background color.</p>
+</div>
+</div>
+<div class="section" id="background-image-slideshow">
+<span id="index-3"></span><h3>Background image slideshow<a class="headerlink" href="#background-image-slideshow" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>It is also possible to add multiple background images on a page. For this
+create a
+<a class="reference external" href="https://documentation.concrete5.org/editors/dashboard/files/sets">file sets</a>
+that will contain all the desired images and choose the file group with the
+page attribute <strong>background slider</strong> in properties of page. It might be
+possible to set a default file for all pages.</p>
+<p>&lt;background image slider example missing&gt;</p>
+</div></blockquote>
+</div>
+<div class="section" id="apply-a-preset-option">
+<span id="index-4"></span><h3>Apply a preset option<a class="headerlink" href="#apply-a-preset-option" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>If different options settings are needed for all pages, or for a particular
+page, simply create a page preset and apply through the attribute
+<strong>Supermint theme Option Preset</strong>.</div></blockquote>
+</div>
+<div class="section" id="multiple-main-area">
+<span id="index-5"></span><h3>Multiple Main Area<a class="headerlink" href="#multiple-main-area" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>It is fashionable today to have long pages composed of large colorful section.
+Concrete5 introduced Area styles, allowing to customize the appearance thereof.
+We do not always need this type of stacked layout, which is why I have not
+built a large number of office area, limiting the suffering of the database.
+Set the number of main area for data pages by setting the attribute
+<strong>Number of Main Area</strong> with the desired number. In edit mode see the new
+area where content can be added and customized.</div></blockquote>
+<a class="reference internal image-reference" href="_images/multiple-main-area.jpg"><img alt="_images/multiple-main-area.jpg" class="align-center" src="_images/multiple-main-area.jpg" style="width: 534.0px; height: 315.0px;" /></a>
+</div>
+<div class="section" id="colorful-sticker">
+<span id="index-6"></span><h3>Colorful Sticker<a class="headerlink" href="#colorful-sticker" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Add on top of the page a small label with a very short text. This sticker
+will take the primary theme color as the background and the color contrast for
+text. It will be displayed only if the page attribute is filled. To display
+the sticker, fill the attribute <strong>Text for the Ribbon</strong> with a
+short sentence:</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The <strong>sticker</strong> display is more elegant on the full page or side
+bar page template.</p>
+</div>
+<a class="reference internal image-reference" href="_images/colorful-sticker.jpg"><img alt="_images/colorful-sticker.jpg" class="align-center" src="_images/colorful-sticker.jpg" style="width: 515.25px; height: 227.25px;" /></a>
+</div>
+<div class="section" id="display-mode-boxed">
+<span id="index-7"></span><h3>Display Mode “Boxed”<a class="headerlink" href="#display-mode-boxed" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Change the appearance of pages mode to “Boxed”. This displays a
+white background in the content, detached from the bottom of the page body.
+For this Boxed Set the mode in theme options in the “Layout”.</div></blockquote>
+<a class="reference internal image-reference" href="_images/layout-boxed.jpg"><img alt="_images/layout-boxed.jpg" class="align-center" src="_images/layout-boxed.jpg" style="width: 514.5px; height: 395.25px;" /></a>
+<hr class="docutils" />
+<p>Original reference: web.archive.org <a class="reference external" href="https://web.archive.org/web/20180111062951/http://supermint3.myconcretelab.com:80/index.php/documentation/page-customization">page</a></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Page customization</a><ul>
+<li><a class="reference internal" href="#discover-how-to-personalize-a-page">Discover how to personalize a page</a><ul>
+<li><a class="reference internal" href="#page-color">Page Color</a></li>
+<li><a class="reference internal" href="#page-icon">Page Icon</a></li>
+<li><a class="reference internal" href="#miniature">Miniature</a></li>
+<li><a class="reference internal" href="#background-image-slideshow">Background image slideshow</a></li>
+<li><a class="reference internal" href="#apply-a-preset-option">Apply a preset option</a></li>
+<li><a class="reference internal" href="#multiple-main-area">Multiple Main Area</a></li>
+<li><a class="reference internal" href="#colorful-sticker">Colorful Sticker</a></li>
+<li><a class="reference internal" href="#display-mode-boxed">Display Mode “Boxed”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="07-stack-elements.html"
+                        title="previous chapter">Stack Elements</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="09-page-lists.html"
+                        title="next chapter">Page Lists</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/08-page-customization.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="09-page-lists.html" title="Page Lists"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="07-stack-elements.html" title="Stack Elements"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, northdecoder.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.0.
+    </div>
+  </body>
+</html>

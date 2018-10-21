@@ -4,17 +4,41 @@
 * Creating a manual test plan.
 * Treat downloads as experimental and *not for production*.
 * Testing updates to theme with version 8.x.x of Concrete5.
+* Adding documentation from archive
 
 ### Fatal bugs
 * None known at this commit
 
 ### Installation
-1. Unzip this file in your site's packages/ directory.
-2. Login to your site as an administrator.
-3. Find the "Add Functionality" page in your dashboard.
+1. Download the file
+   - https://github.com/VividVenturesLLC/theme_supermint/archive/v3.4.1.5.tar.gz
+   - change release version as desired
+2. Unzip this file in your site's packages/ directory.
+3. Login to your site as an administrator.
+4. Find the "Add Functionality" page in your dashboard.
    a. Dashboard -> Extend -> Add Functionality 
-4. Find this package in the list of packages awaiting installation.
-5. Click the "install" button.
+5. Find this package in the list of packages awaiting installation.
+6. Click the "install" button.
+
+### Documentation
+
+* __Read the Docs__ [:link:](https://theme-supermint.readthedocs.io/en/latest/) 
+  from *master* branch
+* Edit the documentation in the directory `/docs/source`
+* Read the documentation at `/docs/build/html/index.html`
+* The documentation *source* files are written in
+  [reStructured](http://docutils.sourceforge.net/rst.html) text
+  which ends with an ``.rst`` suffix.
+
+  - They exist in ``~/workspace/docs/source``
+
+* Try an online WYSIWYG reStructured [editor](http://rst.ninjs.org) to learn proper
+  formatting.
+
+* The [Sphinx](http://www.sphinx-doc.org/en/master/index.html) transformed 
+  output *build* documents are served from
+
+  - ``~/workspace/docs/build/html/index.html``
 
 
 ### Contributors
@@ -42,8 +66,9 @@ which now returns 404.
 
 -----
 #### Marketplace
-As of 23-August 2018 the theme is  still listed on the __marketplace__ at
-http://www.concrete5.org/marketplace/themes/supermint-3
+As of 20-October 2018 the theme is  still listed on the __marketplace__ at
+http://www.concrete5.org/marketplace/themes/supermint-3 . The version there may 
+not be the most up to date compared with this repository.
 
 The marketing quote from the marketplace:
 

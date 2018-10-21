@@ -1,0 +1,429 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Slider Options &#8212; Supermint  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Font Options" href="03d-font-settings.html" />
+    <link rel="prev" title="Site settings" href="03b-site-settings.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="03d-font-settings.html" title="Font Options"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="03b-site-settings.html" title="Site settings"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="03-options-framework.html" accesskey="U">Options framework</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="slider-options">
+<span id="index-0"></span><h1>Slider Options<a class="headerlink" href="#slider-options" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>Fine tune slider or carousels on different custom templates.</div></blockquote>
+<div class="section" id="page-list-carousel">
+<span id="index-1"></span><h2>Page-list Carousel<a class="headerlink" href="#page-list-carousel" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Supermint offers multiple custom templates for the built-in page-list block
+that display pages into a slider or carousel. Below you will find options
+to take the control of different settings.</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Default number of Pages to show -</strong></dt>
+<dd>How many items per view by default. This can be overriden by custom classes
+on the block itself (eg: column-4)</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">3blocks</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_slidesToShow</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Default Margins -</strong></dt>
+<dd>Default Margins between items. This can be overriden by custom classes on
+the block itself (eg: carousel-margin-10).</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">10px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_margin</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display Dots -</strong></dt>
+<dd>Display small dots under the pages.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_dots</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display Arrows -</strong></dt>
+<dd>Display Arrow on top right of pages.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_arrows</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Infinite -</strong></dt>
+<dd>Infinite loop sliding</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_infinite</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Center Mode -</strong></dt>
+<dd>Enables centered view with partial prev/next slides.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_centerMode</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Adaptive Height -</strong></dt>
+<dd>Enables adaptive height for single slide horizontal carousels.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_adaptiveHeight</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Auto Play -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_autoplay</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Scroll Speed -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">300ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_speed</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Auto Play Speed -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">5000ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_autoplaySpeed</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display meta -</strong></dt>
+<dd>Display Meta information like user. You need also to activate the
+Date display option in the block edit.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">carousel_meta</span></code></li>
+</ul>
+</div>
+<div class="section" id="stack-carousel">
+<span id="index-2"></span><h2>Stack Carousel<a class="headerlink" href="#stack-carousel" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Supermint offers a custom template for Stack displayer that displays blocks
+into a carousel or slider. Below you will find options to take control
+of different settings of this Carousel.</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Default blocks to show -</strong></dt>
+<dd>How many block per view by default. This can be overriden by custom classes
+on the block itself (eg: margin-10).</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">3block</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_slidesToShow</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Margins -</strong></dt>
+<dd>Margins between items</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">10px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_margin</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Display Dots -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_dots</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Display Arrows -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_arrows</span></code></li>
+</ul>
+<p>Display Arrow on top right of blocks</p>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Infinite -</strong></dt>
+<dd>Infinite loop sliding</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_infinite</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Center Mode -</strong></dt>
+<dd>Enables centered view with partial prev/next slides.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_centerMode</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Adaptive Height -</strong></dt>
+<dd>Enables adaptive height for single slide horizontal carousels.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_adaptiveHeight</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Auto Play -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default :<code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_autoplay</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Scroll Speed -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">300ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_speed</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Auto Play Speed -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">5000ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">stack_carousel_autoplaySpeed</span></code></li>
+</ul>
+<hr class="docutils" />
+<span class="target" id="index-3"></span></div>
+<div class="section" id="simple-slide">
+<span id="index-4"></span><h2>Simple slide<a class="headerlink" href="#simple-slide" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>The custom template “Supermint simple” on the built-in “image-slider” block
+use great CSS3 animation for image transitions. You can pick the one
+you love.</div></blockquote>
+<hr class="docutils" />
+<p><strong>Image Slider Transition -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Soft</span> <span class="pre">scale</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_effect</span></code></li>
+</ul>
+</div>
+<div class="section" id="image-slider">
+<span id="index-5"></span><h2>Image Slider<a class="headerlink" href="#image-slider" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Options when ‘Supermint Slider’ is chosen as custom template for the
+Image Slider block.</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Image to show -</strong></dt>
+<dd>How many items per view</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">1image</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_slidesToShow</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Margins -</strong></dt>
+<dd>Margins between images</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">10px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_margin</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display Dots -</strong></dt>
+<dd>Display small dots under the pages</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_dots</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display Arrows -</strong></dt>
+<dd>Display Arrows on top right of blocks</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_arrows</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Infinite -</strong></dt>
+<dd>Infinite loop sliding</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_infinite</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Adaptive Height -</strong></dt>
+<dd>Enables adaptive height for single slide horizontal carousels.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_adaptiveHeight</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Auto Play -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_autoplay</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Auto Play Speed -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">5000ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_autoplaySpeed</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Scroll Speed -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">300ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">image_slider_speed</span></code></li>
+</ul>
+<hr class="docutils" />
+<p>Original reference: web.archive.org
+<a class="reference external" href="https://web.archive.org/web/20180403191248/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/slides">page</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Slider Options</a><ul>
+<li><a class="reference internal" href="#page-list-carousel">Page-list Carousel</a></li>
+<li><a class="reference internal" href="#stack-carousel">Stack Carousel</a></li>
+<li><a class="reference internal" href="#simple-slide">Simple slide</a></li>
+<li><a class="reference internal" href="#image-slider">Image Slider</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="03b-site-settings.html"
+                        title="previous chapter">Site settings</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="03d-font-settings.html"
+                        title="next chapter">Font Options</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/03c-slider-settings.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="03d-font-settings.html" title="Font Options"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="03b-site-settings.html" title="Site settings"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="03-options-framework.html" >Options framework</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, northdecoder.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.0.
+    </div>
+  </body>
+</html>

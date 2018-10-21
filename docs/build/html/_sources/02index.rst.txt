@@ -1,0 +1,17 @@
+############################# 
+Supermint theme documentation
+############################# 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+1. `Get started <./01-get-started.rst>`_
+2. `Color customization <./02-color-customization.rst>`_
+3. `Options framework <./03-options-framework.rst>`_
+4. `Navigation <./04-navigation.rst>`_
+5. `Block - Area - Layout classes <./05-block-area-layout-classes.rst>`_
+6. `Area classes <./06-area-classes.rst>`_
+7. `Elements from stack <./07-stack-elements.rst>`_
+8. `Page customization <./08-page-customization.rst>`_
+9. `Page lists <./09-page-lists.rst>`_
