@@ -1,0 +1,176 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Options framework &#8212; Supermint  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Theme Options" href="03a-theme-options.html" />
+    <link rel="prev" title="Color Customization" href="02-color-customization.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="03a-theme-options.html" title="Theme Options"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="02-color-customization.html" title="Color Customization"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="options-framework">
+<h1>Options framework<a class="headerlink" href="#options-framework" title="Permalink to this headline">¶</a></h1>
+<p>Supermint is powered by a unique options system that lets you customize many
+different parts of the theme without any code. These options are saved as
+<strong>presets</strong>, which are “collections” of options. These presets can be applied
+to certain pages or the entire site, which is very convenient to have different
+site appearance.</p>
+<hr class="docutils" />
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="03a-theme-options.html">Theme Options</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="03a-theme-options.html#layout">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03a-theme-options.html#blocks-templates">Blocks templates</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#page-list">Page List</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#feature">Feature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#autonav">Autonav</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="03a-theme-options.html#supermint-navigation">Supermint Navigation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#dropdown-mode">Dropdown mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#dropdown-multicolumns">Dropdown multicolumns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#large-dropdown-mode">Large Dropdown mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#lateral-mode">Lateral mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#responsive-full-width-mode">Responsive full width mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#responsive-lateral-nav-mmenu">Responsive Lateral Nav (mmenu)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="03a-theme-options.html#mega-menu-options">Mega menu options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03a-theme-options.html#slide-navigation-options">Slide Navigation options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03a-theme-options.html#footer">Footer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03a-theme-options.html#popup">Popup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#css-transitions-for-popup">CSS transitions for popup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03a-theme-options.html#button-type-for-popup">Button type for popup</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="03a-theme-options.html#miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03b-site-settings.html">Site settings</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="03b-site-settings.html#site-options">Site Options</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="03b-site-settings.html#marketplace">Marketplace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03b-site-settings.html#concrete5-news">Concrete5 news</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03b-site-settings.html#white-label">White label</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03b-site-settings.html#miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03c-slider-settings.html">Slider Options</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="03c-slider-settings.html#page-list-carousel">Page-list Carousel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03c-slider-settings.html#stack-carousel">Stack Carousel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03c-slider-settings.html#simple-slide">Simple slide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03c-slider-settings.html#image-slider">Image Slider</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03d-font-settings.html">Font Options</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="03d-font-settings.html#fonts-from-google">Fonts from Google</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03d-font-settings.html#fonts-size">Fonts size</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03d-font-settings.html#font-variation">Font variation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03d-font-settings.html#responsive-text">Responsive text</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="03e-presets.html">Presets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="03e-presets.html#presets-selector">Presets selector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03e-presets.html#manage-presets">Manage Presets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03e-presets.html#apply-presets-to-whole-site">Apply presets to whole site</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03e-presets.html#apply-presets-to-pages">Apply presets to pages</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<hr class="docutils" />
+<p>Original reference: web.archive.org
+<a class="reference external" href="https://web.archive.org/web/20180403192041/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework">page</a></p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="02-color-customization.html"
+                        title="previous chapter">Color Customization</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="03a-theme-options.html"
+                        title="next chapter">Theme Options</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/03-options-framework.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="03a-theme-options.html" title="Theme Options"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="02-color-customization.html" title="Color Customization"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, northdecoder.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.0.
+    </div>
+  </body>
+</html>

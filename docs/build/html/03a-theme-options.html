@@ -1,0 +1,944 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Theme Options &#8212; Supermint  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Site settings" href="03b-site-settings.html" />
+    <link rel="prev" title="Options framework" href="03-options-framework.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="03b-site-settings.html" title="Site settings"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="03-options-framework.html" title="Options framework"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="03-options-framework.html" accesskey="U">Options framework</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="theme-options">
+<span id="index-0"></span><h1>Theme Options<a class="headerlink" href="#theme-options" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>Here you will find all options available in the theme
+option page of Supermint with an explanation, type and
+default value (with the base preset).</div></blockquote>
+<div class="section" id="layout">
+<span id="index-1"></span><h2>Layout<a class="headerlink" href="#layout" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>For each page of the site play with these options
+to fine tune design details as optional Area, Boxed
+layout, Side-bar size.</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Enable responsive layout -</strong></dt>
+<dd>If enabled, all layouts will be adapted for small screen. If disabled the
+site will be rendered as desktop on mobile &amp; tablets.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">responsive</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display wide Top Area -</strong></dt>
+<dd>Display an Area under the logo to add some wider content.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_top_area</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils" id="display-top-bar-area">
+<dt><strong>Display Top Bar -</strong></dt>
+<dd>Display zone with Logo Area, right Header content. Disable this for the
+Wide navigation style.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_top_bar_area</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Top Bar width size -</strong></dt>
+<dd>Add or remove a column for logo in the top-bar.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Normal</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">logo_col_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Layout mode -</strong></dt>
+<dd>Each page templates can be displayed in a wide or a Boxed format. Boxed
+format use the color ‘boxed-background-color’ as background.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Wide</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">layout_mode</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Sidebar width size -</strong></dt>
+<dd>Add or remove a column in the sidebar.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Normal</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">sidebar_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Sidebar padding -</strong></dt>
+<dd>Add space between the sidebar border and the content.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Normal</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">sidebar_padding</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Sidebar offset -</strong></dt>
+<dd>Add Space between sidebar and the Main content area.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">None</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">sidebar_offset</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Content padding -</strong></dt>
+<dd>Add or remove space between border and content in the Main content area.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Normal</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">content_padding</span></code></li>
+</ul>
+</div>
+<div class="section" id="blocks-templates">
+<span id="index-2"></span><h2>Blocks templates<a class="headerlink" href="#blocks-templates" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>In this section you find options to control Block’s custom template details</div></blockquote>
+<div class="section" id="page-list">
+<h3>Page List<a class="headerlink" href="#page-list" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Options for the Built-in “Autonav” block</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display tag filtering -</strong></dt>
+<dd>Display tag filtering on templates that support this feature.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">isotope_display_tags</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display Keyword filtering</strong></dt>
+<dd>Display keyword filtering on templates that support this feature</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">isotope_display_search</span></code></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="feature">
+<h3>Feature<a class="headerlink" href="#feature" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Options for the Built-in “Feature” block</div></blockquote>
+<dl class="docutils">
+<dt><strong>Display button -</strong></dt>
+<dd>Display a link button on certain Feature block template</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">feature_link_button</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Button text</strong></dt>
+<dd>The default text to add on the button</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">text</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">More</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">feature_link_text</span></code></li>
+</ul>
+<hr class="docutils" />
+</div>
+<div class="section" id="autonav">
+<span id="index-3"></span><h3>Autonav<a class="headerlink" href="#autonav" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Options for the Built-in “Autonav” block</div></blockquote>
+<span id="index-4"></span><dl class="docutils" id="default-nav-block-icon">
+<dt><strong>Icon class on left of each navigation title</strong></dt>
+<dd>Pick an icon from the <a class="reference external" href="https://fontawesome.com/icon">Font Awesome</a>
+Library. This icon will be used throught all autonav template.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">awesome</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">-</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">default_nav_block_icon</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Display icon on Horizontal template</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">autonav_horizontal_icon</span></code></li>
+</ul>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="supermint-navigation">
+<span id="index-5"></span><h2>Supermint Navigation<a class="headerlink" href="#supermint-navigation" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>This section display options common for the navigation’s types</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Navigation Style -</strong></dt>
+<dd>Choose the navigation style</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Regular</span> <span class="pre">drop-down</span> <span class="pre">mode</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">navigation_style</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils" id="disable-auto-embed-nav">
+<dt><strong>Disable Auto embed navigation</strong></dt>
+<dd>If disabled, a global area will let you put whitch block you want for nav.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">disable_embed_nav</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Choose a page for searching result -</strong></dt>
+<dd>Display Search box in the top of the page if a page is selected.
+Add a block search on this page to display result.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">page</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">0</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_searchbox</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Display search input in the mobile version -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_searchbox_mobile</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Hidden dropdown on small screen -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">hidde_dropdown_small_screen</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Auto hidden Mobile bar</strong></dt>
+<dd>If enabled, the small toolbar is hidde during scroll.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">auto_hidde_top_bar</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display icon on first level if available</strong></dt>
+<dd>If the atrtribute ‘icon’ is filled on a first-level page it will be
+displayed in the top-nav</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">first_level_nav_icon</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Make regular nav FLAT</strong></dt>
+<dd>Once enabled, this options remove all gradient and shadow from the
+regular type navigation. Usefull for light colors</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">first_level_regular_flaterize</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Items spacing</strong></dt>
+<dd>Set horizontal space between each nav items on regular nav</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">20px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_item_spacing</span></code></li>
+</ul>
+<hr class="docutils" />
+<div class="section" id="dropdown-mode">
+<h3>Dropdown mode<a class="headerlink" href="#dropdown-mode" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Options When the nav is in dropdown mode</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Fix the navigation bar on top -</strong></dt>
+<dd>If enabled, the nav bar will be fixed on top. You will need to disable the
+auto-embeding of navigation and placing the autonav block into the
+‘Responsive Navigation’ Area</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">wide_navbar_fixed</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Dropdown Width -</strong></dt>
+<dd>Set width for dropdown in main navigation when it’s on dropdown mode</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">220px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_sub_level_width</span></code></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="dropdown-multicolumns">
+<h3>Dropdown multicolumns<a class="headerlink" href="#dropdown-multicolumns" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Options When the nav is in dropdown mode and the attribute
+“Display multi-columns dropdown” is activated</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils" id="full-width-multicolumn">
+<dt><strong>Multicolumns position -</strong></dt>
+<dd>Display multi-columns nav as full width or under parent</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Aligned</span> <span class="pre">on</span> <span class="pre">left</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">parent</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">full_width_multicolumn</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Number of link per columns -</strong></dt>
+<dd>This setting allows you to set the number of items by columns
+(only if the “break by parent” (below)) is deactivated</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">5link</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">`nav_multicolumns_item_per_column</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Activate the break by parent -</strong></dt>
+<dd>The number of columns is determined by the number
+of child page in second level.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">break_columns_on_child</span></code></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="large-dropdown-mode">
+<h3>Large Dropdown mode<a class="headerlink" href="#large-dropdown-mode" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Options When the navigation style is is set on “Wide Large drop-down mode”</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Remove the regular place take by the navigation -</strong></dt>
+<dd>This advanced option let to control when the auto-embed nav is set on off
+and we want to play with this navigation place.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">wide_navbar_colapse</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Contains navigation width to the content width -</strong></dt>
+<dd>If enabled, it disable the full width feature and display navigation
+as large as the content</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">wide_navbar_contained</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display the stack ‘Site Logo’ on left -</strong></dt>
+<dd>If enabled the content of the stack will be displayed on left</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">wide_navbar_display_logo</span></code></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="lateral-mode">
+<h3>Lateral mode<a class="headerlink" href="#lateral-mode" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Options When the nav is diplayed on left</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Choose the font-family for links</strong></dt>
+<dd>By choosing an element you select which font (not size)
+to use for links in the navigation</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default :<code class="docutils literal notranslate"><span class="pre">-</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">lateral_nav_element_font</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Font size for links items</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">14px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">lateral_nav_element_size</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Make links uppercase</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">lateral_nav_element_uppercase</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Activate the harmonize-text script</strong></dt>
+<dd>This script tries to harmonize title width to create a unique design.
+For now can display width smaller sometimes but always visible.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">lateral_nav_element_harmonized</span></code></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="responsive-full-width-mode">
+<h3>Responsive full width mode<a class="headerlink" href="#responsive-full-width-mode" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Options when the nav shown on mobile</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display the stack ‘Site Logo’ on the mobile nav -</strong></dt>
+<dd>If enabled the content of the stack will be displayed at left.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_logo_mobile_nav</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display the regular Area Logo on Mobile -</strong></dt>
+<dd>If disabled, the Logo will be hidden when the mobile nav is shown.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_main_logo_on_mobile</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Font size for links items -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">20px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">full_screen_nav_font_size</span></code></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="responsive-lateral-nav-mmenu">
+<h3>Responsive Lateral Nav (mmenu)<a class="headerlink" href="#responsive-lateral-nav-mmenu" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Options the autonav template is “Supermint Mmenu”</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Choose the theme -</strong></dt>
+<dd>By choosing an element you select which font (not size) to use for links
+in the navigation</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Light</span> <span class="pre">gray</span> <span class="pre">background</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">mmenu_theme</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Choose the Position -</strong></dt>
+<dd>By default, the menu will always slide the page out to the right but you
+can change it.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Left</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">mmenu_position</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Pane shadow -</strong></dt>
+<dd>Enable if you want the page to have a shadow to emphasize it is in front
+of the menu.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">mmenu_shadow</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Display Icon -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">mmenu_display_icon</span></code></li>
+</ul>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="mega-menu-options">
+<span id="index-6"></span><h2>Mega menu options<a class="headerlink" href="#mega-menu-options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Options when a parent page displays a Stack as mega-menu</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Mega menu position when dropdown mode -</strong></dt>
+<dd>Display a mega menu as full width or under parent</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Full</span> <span class="pre">width</span> <span class="pre">mega-menu</span> <span class="pre">with</span> <span class="pre">percent</span> <span class="pre">based</span> <span class="pre">columns</span> <span class="pre">width</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">full_width_mega</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Mega columns width -</strong></dt>
+<dd>Columns width in pixels for mega menu when aligned to the left</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">200px</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">mega_columns_width</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Block title when exist -</strong></dt>
+<dd>Display the block name as title</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_title_mega_menu</span></code></li>
+</ul>
+<hr class="docutils" />
+</div>
+<div class="section" id="slide-navigation-options">
+<span id="index-7"></span><h2>Slide Navigation options<a class="headerlink" href="#slide-navigation-options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Options available when navigation is set on “slide” mode</div></blockquote>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Navigation Event -</strong></dt>
+<dd>Choose the event that activates the sliding menu (not on dropdown)</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Click</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_event</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Navigation Double click management -</strong></dt>
+<dd>Choose to open/close or go to the url on second click</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Go</span> <span class="pre">to</span> <span class="pre">the</span> <span class="pre">Url</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_dbl_click_event</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Open on load -</strong></dt>
+<dd>If enabled, Subnavs will be open if they are one subpage active.
+If disabled subnavs are closed on page load.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_open_on_load</span></code></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Display little arrow on right -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id :<code class="docutils literal notranslate"><span class="pre">nav_slide_arrow</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils" id="index-8">
+<dt><strong>Sub-page icon -</strong></dt>
+<dd>The icon from <a class="reference external" href="https://fontawesome.com/icons">FontAwesome</a> displayed on
+left of each sub-page.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">awesome</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">-</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">default_nav_icon</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Display pane title -</strong></dt>
+<dd>Display the first level page title &amp; link on the top of each subnav panes.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_pane_title</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Navigation column -</strong></dt>
+<dd>How many columns you want in the sub navs</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Four</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_columns</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Columns margin -</strong></dt>
+<dd>Set space between columns in percent</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">2%</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_columns_margin</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Open speed -</strong></dt>
+<dd>Set the speed to open the nav</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">300ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_open_speed</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Close speed -</strong></dt>
+<dd>Set the speed to close the nav</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">300ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_close_speed</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Slide speed -</strong></dt>
+<dd>Set the speed when subnavs slide</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">300ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_slide_speed</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>On mouse leave delay -</strong></dt>
+<dd>Set the wait time for close the nav, after the mouse leaves the nav</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">1000ms</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_mouseleave_delay</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Shorten description on subnavs -</strong></dt>
+<dd>If set to 0 all description text will be displayed</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">range</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">0Char</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">nav_shorten_desc</span></code></li>
+</ul>
+<hr class="docutils" />
+</div>
+<div class="section" id="footer">
+<span id="index-9"></span><h2>Footer<a class="headerlink" href="#footer" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Options for the Footer section</div></blockquote>
+<hr class="docutils" />
+<p><strong>Display Footer -</strong></p>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_footer</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Footer column -</strong></dt>
+<dd>How many columns you want in the footer</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">One</span> <span class="pre">Half</span> <span class="pre">and</span> <span class="pre">two</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">display_footer_column</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Make Footer Global -</strong></dt>
+<dd>If enabled, Block on footer will be Globals</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">On</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">footer_global</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>RAW HTML Credits -</strong></dt>
+<dd>If you want to change it, feel free</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">textarea</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Designed</span> <span class="pre">by</span> <span class="pre">MyConcreteLab</span> <span class="pre">Powered</span> <span class="pre">by</span> <span class="pre">concrete5</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">footer_credit</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Disable Footer login links -</strong></dt>
+<dd>If enabled, you will not see login links in the footer</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">disable_footer_login</span></code></li>
+</ul>
+</div>
+<div class="section" id="popup">
+<span id="index-10"></span><h2>Popup<a class="headerlink" href="#popup" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Here you can set transitions for popups</div></blockquote>
+<div class="section" id="css-transitions-for-popup">
+<h3>CSS transitions for popup<a class="headerlink" href="#css-transitions-for-popup" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><strong>content at start -</strong></dt>
+<dd>CSS only</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">textarea</span></code></li>
+<li>default :<code class="docutils literal notranslate"><span class="pre">-</span></code></li>
+<li>opacity: <code class="docutils literal notranslate"><span class="pre">0;</span></code></li>
+<li>transform: <code class="docutils literal notranslate"><span class="pre">translateY(-20px)</span> <span class="pre">perspective(</span> <span class="pre">2000px</span> <span class="pre">)</span> <span class="pre">rotateX(</span> <span class="pre">10deg</span> <span class="pre">);</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">popup_content_start_css</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>content animate it -</strong></dt>
+<dd>CSS only</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">textarea</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">opacity:</span> <span class="pre">1</span></code>;</li>
+<li>transform: <code class="docutils literal notranslate"><span class="pre">translateY(0)</span> <span class="pre">perspective(</span> <span class="pre">600px</span> <span class="pre">)</span> <span class="pre">rotateX(</span> <span class="pre">0</span> <span class="pre">);</span></code></li>
+<li>id :<code class="docutils literal notranslate"><span class="pre">popup_content_animate_css</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>content animate out -</strong></dt>
+<dd>CSS only</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">textarea</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">opacity:</span> <span class="pre">0;</span></code></li>
+<li>transform: <code class="docutils literal notranslate"><span class="pre">translateY(-20px)</span> <span class="pre">perspective(</span> <span class="pre">2000px</span> <span class="pre">)</span> <span class="pre">rotateX(</span> <span class="pre">10deg</span> <span class="pre">);</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">popup_content_out_css</span></code></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="button-type-for-popup">
+<h3>Button type for popup<a class="headerlink" href="#button-type-for-popup" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Here you can set the type of button for popup</div></blockquote>
+<dl class="docutils">
+<dt><strong>Button type for popup -</strong></dt>
+<dd>Choose between three styles of button</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Push</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">popup_button_type</span></code></li>
+</ul>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>Button color for popup -</strong></dt>
+<dd>Choose between four colors</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">select</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Primary</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">popup_button_color</span></code></li>
+</ul>
+</div>
+</div>
+<div class="section" id="miscellaneous">
+<span id="index-11"></span><h2>Miscellaneous<a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><strong>Activate iFrame z-index script -</strong></dt>
+<dd>Fix an iFrame z-index issue on certain condition.</dd>
+</dl>
+<ul class="simple">
+<li>type : <code class="docutils literal notranslate"><span class="pre">toggle</span></code></li>
+<li>default : <code class="docutils literal notranslate"><span class="pre">Off</span></code></li>
+<li>id : <code class="docutils literal notranslate"><span class="pre">fix_iframe_zindex</span></code></li>
+</ul>
+<hr class="docutils" />
+<p>Original reference: web.archive.org
+<a class="reference external" href="https://web.archive.org/web/20180327084949/http://supermint3.myconcretelab.com:80/index.php/documentation/options-framework/theme-options">page</a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Theme Options</a><ul>
+<li><a class="reference internal" href="#layout">Layout</a></li>
+<li><a class="reference internal" href="#blocks-templates">Blocks templates</a><ul>
+<li><a class="reference internal" href="#page-list">Page List</a></li>
+<li><a class="reference internal" href="#feature">Feature</a></li>
+<li><a class="reference internal" href="#autonav">Autonav</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#supermint-navigation">Supermint Navigation</a><ul>
+<li><a class="reference internal" href="#dropdown-mode">Dropdown mode</a></li>
+<li><a class="reference internal" href="#dropdown-multicolumns">Dropdown multicolumns</a></li>
+<li><a class="reference internal" href="#large-dropdown-mode">Large Dropdown mode</a></li>
+<li><a class="reference internal" href="#lateral-mode">Lateral mode</a></li>
+<li><a class="reference internal" href="#responsive-full-width-mode">Responsive full width mode</a></li>
+<li><a class="reference internal" href="#responsive-lateral-nav-mmenu">Responsive Lateral Nav (mmenu)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#mega-menu-options">Mega menu options</a></li>
+<li><a class="reference internal" href="#slide-navigation-options">Slide Navigation options</a></li>
+<li><a class="reference internal" href="#footer">Footer</a></li>
+<li><a class="reference internal" href="#popup">Popup</a><ul>
+<li><a class="reference internal" href="#css-transitions-for-popup">CSS transitions for popup</a></li>
+<li><a class="reference internal" href="#button-type-for-popup">Button type for popup</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="03-options-framework.html"
+                        title="previous chapter">Options framework</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="03b-site-settings.html"
+                        title="next chapter">Site settings</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/03a-theme-options.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="03b-site-settings.html" title="Site settings"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="03-options-framework.html" title="Options framework"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Supermint  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="03-options-framework.html" >Options framework</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, northdecoder.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.0.
+    </div>
+  </body>
+</html>
