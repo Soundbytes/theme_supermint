@@ -11,7 +11,7 @@
 
 ### Installation
 1. Download the file
-   - https://github.com/VividVenturesLLC/theme_supermint/archive/v3.4.1.5.tar.gz
+   - https://github.com/VividVenturesLLC/theme_supermint/archive/v3.4.2.tar.gz
    - change release version as desired
 2. Unzip this file in your site's packages/ directory.
 3. Login to your site as an administrator.
