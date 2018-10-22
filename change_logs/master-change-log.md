@@ -1,12 +1,36 @@
 # Master branch change log
 
+3.4.2 - Rescue theme documentation from web archive
+        [pages](https://web.archive.org/web/20170113174552/http://supermint3.myconcretelab.com:80/documentation/get-started)
+        
 3.4.1.4 - Fix fatal remove theme bug
 
         - Ignore request for page_theme during removal
         
 3.4.1.3 - Update with MichaelMaar fixes to work with c5 v8.4.2
 
+3.4.1.3 - Fix a error on the page searching result input
+
+3.4.1.2	- FIx a issue when they are no logo on the the full width main navigation (porfolied)
+
+3.4.1.1	- Fix error on testimonial block hover template + font too light
+
+3.4.1		- Fix a fatal error when a custom template is used in a stack
+
+3.4			- Fix compatibility with Concrete5.8+
+				- Add hidden class from C5
 3.3.4.1 - Fix tabs display on small screen
+
+
+
+
+
+
+
+
+
+
+
 
 3.3.4   - Add a basic Print stylesheet
 
