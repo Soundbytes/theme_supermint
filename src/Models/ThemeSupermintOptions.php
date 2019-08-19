@@ -4,7 +4,7 @@ namespace Concrete\Package\ThemeSupermint\Src\Models;
 defined('C5_EXECUTE') or die(_("Access Denied."));
 
 use \Concrete\Core\Legacy\Model;
-use \Concrete\Core\Foundation\Object;
+use \Concrete\Core\Foundation\ConcreteObject;
 
 use Loader;
 use Config;
@@ -22,7 +22,7 @@ use \Concrete\Package\ThemeSupermint\Src\Helper\SmXmlToArray ;
 use \Symfony\Component\HttpFoundation\Session\Session as SymfonySession;
 
 
-class ThemeSupermintOptions extends Object
+class ThemeSupermintOptions extends ConcreteObject
  {
 
 	var $cObj;

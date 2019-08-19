@@ -89,7 +89,7 @@ foreach ($navItems as $niKey => $ni) :
 		endif;
 
 		// Maintenant on va déterminer les classes pour le dropdown
-		if($ni->cObj->getAttribute('display_multi_columns_drop') || count($ni->blocks)) :
+		if($ni->cObj->getAttribute('display_multi_columns_drop') || (is_array($ni->blocks) && count($ni->blocks))) :
 			// On prend la valeur de l'option full_width_mega ou si on est en multicolumn, l'option full_width_multicolumn
 			if($ni->cObj->getAttribute('display_multi_columns_drop'))
 				$ni->full_width_mega =  $o->full_width_multicolumn;
