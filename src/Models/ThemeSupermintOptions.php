@@ -232,7 +232,7 @@ class ThemeSupermintOptions extends ConcreteObject
 		// On tyest si on a un tableau et qu'il n'est pas vide
 		if (is_array($p) && count($p)) :
 			// On teste les different conteneurs
-			if(count($p['mcl_preset']) && count($p['mcl_preset']['config'] && count($p['mcl_preset']['options']))) :
+			if($p != null && count($p['mcl_preset']) && count($p['mcl_preset']['config'] && count($p['mcl_preset']['options']))) :
 				$pp = $p['mcl_preset'];
 				if ($this->pkg->getPackageHandle() != $pp['config']['theme']) return array ('error' => true, 'message' => t('This preset in not compatible with this theme'));
 				if (!$pID) :
