@@ -14,7 +14,7 @@ if ($c->getAttribute('page_background') || $c->getAttribute('page_backgrounds'))
     foreach ($files as $key => $file) $bgurls[] = $file->getRelativePath();
   endif;
 
-if (count($bgurls)) : ?>
+if (!isnull($bgurls) && count($bgurls)) : ?>
 <script>
   $(function() {
         $.backstretch(<?php echo str_replace('\\/', '/', Loader::helper('json')->encode($bgurls))  ?>,  {speed: 750});

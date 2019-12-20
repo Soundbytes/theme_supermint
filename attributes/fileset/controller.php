@@ -24,7 +24,7 @@ class Controller extends DefaultController  {
 			$selected = 0;
 		}
 
-		if (count($input))
+		if (!isnull($input) && count($input))
 			print Loader::helper('form')->select($this->field('value'), $input,$selected);
 		else
 			echo t('No file sets found.');

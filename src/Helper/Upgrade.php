@@ -25,7 +25,7 @@ class Upgrade {
           if ($block->getBlockTypeHandle() == 'page_list') {
             $templateName = $block->getBlockFilename();
             preg_match("/supermint_(\w+)_(\w+)\.php/",$templateName,$matches);
-            if (count($matches)) {
+            if (is_array($matches) && count($matches)) {
               if ($matches[1] == 'carousel') $this->setBlockClass($block,'is-carousel',$matches[2]);
               if ($matches[1] == 'static' && $matches[2] == 'block') $this->setBlockClass($block,'',$matches[2]);
               if ($templateName == 'supermint_recent_post.php') $this->setBlockClass($block,'1-column',false);
